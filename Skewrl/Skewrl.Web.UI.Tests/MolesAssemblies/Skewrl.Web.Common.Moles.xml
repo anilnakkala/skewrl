@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Skewrl.Web.Common.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver">
+            <summary>Mole type of <see cref="T:Skewrl.Web.Common.Unity.UnityDependencyResolver"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.#ctor(Skewrl.Web.Common.Unity.UnityDependencyResolver)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.Bind(System.Web.Mvc.IDependencyResolver)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.ConstructorIUnityContainer">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.Common.Unity.UnityDependencyResolver.#ctor(Microsoft.Practices.Unity.IUnityContainer)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.GetServiceType">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.Common.Unity.UnityDependencyResolver.GetService(System.Type)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.GetServicesType">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.Common.Unity.UnityDependencyResolver.GetServices(System.Type)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.AllInstances.GetServiceType">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.Common.Unity.UnityDependencyResolver.GetService(System.Type)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.Common.Unity.Moles.MUnityDependencyResolver.AllInstances.GetServicesType">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.Common.Unity.UnityDependencyResolver.GetServices(System.Type)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.Common.Unity.Moles.SUnityDependencyResolver">
+            <summary>Stub type of <see cref="T:Skewrl.Web.Common.Unity.UnityDependencyResolver"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.Common.Unity.Moles.SUnityDependencyResolver.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.Common.Unity.Moles.SUnityDependencyResolver.InitializeStub">
+            <summary>Initializes a new instance of type SUnityDependencyResolver</summary>
+        </member>
+        <member name="P:Skewrl.Web.Common.Unity.Moles.SUnityDependencyResolver.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.Common.Unity.Moles.SUnityDependencyResolver.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

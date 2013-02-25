@@ -1,0 +1,42 @@
+﻿@model Skewrl.Web.UI.Models.UrlModel
+
+<div id='geochart_loading' style='display:none;padding-left:100px;padding-top:100px;'>
+  
+</div>
+<div id="geochart">
+<img src='/Images/ajax-loader.gif' alt="Loading, please wait..."/>
+</div>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    google.load('visualization', '1', { packages: ['geochart'] });
+    function drawVisualization() {
+        //$('#geochart_loading').show();
+
+        $.post('/Chart', { id: '@Model.ShortUrlCode', type:4},
+            function (data) {
+                var tdata = new google.visualization.DataTable();
+
+                tdata.addColumn('string', 'Country');
+                tdata.addColumn('number', 'Visitors');
+
+                for (var i = 0; i < data.length; i++) {
+                    tdata.addRow([data[i].Name, data[i].Value]);
+                }
+
+                var geochart = new google.visualization.GeoChart(document.getElementById('geochart'));
+                geochart.draw(tdata,
+                {
+                        width: 800,
+                        height: 375,
+                        colorAxis: { colors: ['#FFFFFF', '#0099FF'] }
+                });
+             })
+            .success(function () { /*Some placeholder*/ })
+            .error(function () { /*Some placeholder*/ })
+            .complete(function () { /*$('#geochart_loading').hide();*/ });
+    }
+
+    google.setOnLoadCallback(drawVisualization);
+
+  </script>
+

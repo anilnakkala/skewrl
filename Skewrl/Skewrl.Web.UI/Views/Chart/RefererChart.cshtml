@@ -1,0 +1,51 @@
+﻿@model Skewrl.Web.UI.Models.UrlModel
+
+<div id='loadingmessage' style='display:none;padding-left:100px;padding-top:100px;'>
+  
+</div>
+<div id="chart_div">
+<img src='/Images/ajax-loader.gif' alt="Loading, please wait..."/>
+</div>
+
+<!--Load the AJAX API-->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+   
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1.0', { 'packages': ['corechart'] });
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart1);
+
+    function drawChart1() {
+        //$('#loadingmessage').show();
+
+        $.post('/Chart', {id:'@Model.ShortUrlCode', type:1},
+            function (data) {
+                var tdata = new google.visualization.DataTable();
+
+                tdata.addColumn('string', 'Referer');
+                tdata.addColumn('number', 'Count');
+
+                for (var i = 0; i < data.length; i++) {
+                    tdata.addRow([data[i].Name, data[i].Value]);
+                }
+
+                var options = {
+                    title: "Referrers",
+                    width: 400, height: 350,
+                    titleTextStyle: { color:'#999999', fontSize: 22 },
+                    is3D: true
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+                chart.draw(tdata, options);
+
+            })
+            .success(function () { /*Some placeholder*/ })
+            .error(function () { /*Some placeholder*/ })
+            .complete(function () { /*$('#loadingmessage').hide();*/ });
+    }
+</script>
+
+

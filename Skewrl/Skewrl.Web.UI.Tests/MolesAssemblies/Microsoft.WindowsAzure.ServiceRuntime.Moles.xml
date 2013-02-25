@@ -1,0 +1,1147 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.WindowsAzure.ServiceRuntime.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MLocalResource">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.LocalResource"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MLocalResource.#ctor(Microsoft.WindowsAzure.ServiceRuntime.LocalResource)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MLocalResource.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MLocalResource.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MLocalResource.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MLocalResource.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.LocalResource.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MLocalResource.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRole">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.Role"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRole.#ctor(Microsoft.WindowsAzure.ServiceRuntime.Role)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRole.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRole.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRole.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRole.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Role.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRole.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.OnStart">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStart"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.OnStop">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStop"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.Run">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.Run"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.AllInstances.OnStart">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStart"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.AllInstances.OnStop">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStop"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEntryPoint.AllInstances.Run">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.Run"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.ChangedAddEventHandlerOfRoleEnvironmentChangedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.add_Changed(System.EventHandler`1{Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.ChangedRemoveEventHandlerOfRoleEnvironmentChangedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.remove_Changed(System.EventHandler`1{Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.ChangingAddEventHandlerOfRoleEnvironmentChangingEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.add_Changing(System.EventHandler`1{Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.ChangingRemoveEventHandlerOfRoleEnvironmentChangingEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.remove_Changing(System.EventHandler`1{Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.CreateRoleEntryPointRoleType">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.CreateRoleEntryPoint(Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleType)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.CurrentDomain_DomainUnloadObjectEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.CurrentDomain_DomainUnload(System.Object,System.EventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.CurrentRoleInstanceGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.CurrentRoleInstance"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.DeploymentIdGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.DeploymentId"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.ErrorIfFailedInt32">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.ErrorIfFailed(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.ErrorIfFailedInt32StringStringArray">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.ErrorIfFailed(System.Int32,System.String,System.String[])"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.ErrorIfNullObjectString">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.ErrorIfNull(System.Object,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.ErrorIfNullOrEmptyStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.ErrorIfNullOrEmpty(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.GetConfigurationSettingValueString">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.GetConfigurationSettingValue(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.GetDeploymentId">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.GetDeploymentId"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.GetLocalResourceString">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.GetLocalResource(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.GetRoleEntryPointAssembly">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.GetRoleEntryPoint(System.Reflection.Assembly)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.Initialize">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.Initialize"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.InitializeCallbacks">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.InitializeCallbacks"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.InitializeEnvironment">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.InitializeEnvironment"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.InitializeRoleInternalRoleType">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.InitializeRoleInternal(Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleType)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.InitializeRoleRoleType">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.InitializeRole(Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleType)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.IsAvailableGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.IsAvailable"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.IsEmulatedGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.IsEmulated"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.IsRoleProcess">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.IsRoleProcess"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.MonitorRoleEnvironmentChangedRoleEnvironmentChangingEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.MonitorRoleEnvironmentChanged(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.NormalizeEventNameStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.NormalizeEventName(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.OnChangedRoleEnvironmentChangedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.OnChanged(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.OnChangingRoleEnvironmentChangingEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.OnChanging(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.OnRoleShutdownCallBack">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.OnRoleShutdownCallBack"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.OnRoleStatusCallBackRoleStatusOut">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.OnRoleStatusCallBack(Microsoft.WindowsAzure.ServiceRuntime.Internal.RoleStatus@)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.OnRoleUpdateCallBackInteropRoleUpdates">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.OnRoleUpdateCallBack(Microsoft.WindowsAzure.ServiceRuntime.Internal.InteropRoleUpdates)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.OnRoleUpdateCompletedCallBackRoleEnvironmentChangingEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.OnRoleUpdateCompletedCallBack(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.OnStoppingRoleEnvironmentStoppingEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.OnStopping(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentStoppingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.ReadModelElement">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.ReadModelElement"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.ReadRolesStringOut">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.ReadRoles(System.String@)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.RefreshRoleDiscoveryCache">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.RefreshRoleDiscoveryCache"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.RequestRecycle">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.RequestRecycle"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.RolesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.Roles"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.StartRole">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.StartRole"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.StartRoleInternal">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.StartRoleInternal"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.StatusCheckAddEventHandlerOfRoleInstanceStatusCheckEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.add_StatusCheck(System.EventHandler`1{Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.StatusCheckRemoveEventHandlerOfRoleInstanceStatusCheckEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.remove_StatusCheck(System.EventHandler`1{Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.StopRole">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.StopRole"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.StopRoleInternal">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.StopRoleInternal"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.StoppingAddEventHandlerOfRoleEnvironmentStoppingEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.add_Stopping(System.EventHandler`1{Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentStoppingEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.StoppingRemoveEventHandlerOfRoleEnvironmentStoppingEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.remove_Stopping(System.EventHandler`1{Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentStoppingEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.UninitializeCallbacks">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.UninitializeCallbacks"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment._GetRoleEntryPointb__10Type">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.&lt;GetRoleEntryPoint&gt;b__10(System.Type)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment._cctorb__eObjectUnhandledExceptionEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.&lt;.cctor&gt;b__e(System.Object,System.UnhandledExceptionEventArgs)"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.AllInstances.InitializeRoleInternalRoleType">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.InitializeRoleInternal(Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleType)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.AllInstances.StartRoleInternal">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.StartRoleInternal"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironment.AllInstances.StopRoleInternal">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironment.StopRoleInternal"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChange">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChange"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChange.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChange)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChange.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChange.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChange.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChange.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChange.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChange.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangedEventArgs"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangedEventArgs)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs.ChangesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangedEventArgs.Changes"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs.ChangesSetReadOnlyCollectionOfRoleEnvironmentChange">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangedEventArgs.Changes"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangedEventArgs.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs.AllInstances.ChangesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangedEventArgs.Changes"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangedEventArgs.AllInstances.ChangesSetReadOnlyCollectionOfRoleEnvironmentChange">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangedEventArgs.Changes"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs.ChangesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs.Changes"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs.ChangesSetReadOnlyCollectionOfRoleEnvironmentChange">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs.Changes"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs.AllInstances.ChangesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs.Changes"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentChangingEventArgs.AllInstances.ChangesSetReadOnlyCollectionOfRoleEnvironmentChange">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChangingEventArgs.Changes"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.Bind(System.IEquatable{Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.ConfigurationSettingNameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.ConfigurationSettingName"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.ConfigurationSettingNameSetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.ConfigurationSettingName"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.EqualsInternalRoleEnvironmentConfigurationSettingChange">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.EqualsInternal(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.EqualsObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.EqualsRoleEnvironmentConfigurationSettingChange">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.Equals(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.GetHashCode">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.AllInstances.ConfigurationSettingNameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.ConfigurationSettingName"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.AllInstances.ConfigurationSettingNameSetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.ConfigurationSettingName"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.AllInstances.EqualsInternalRoleEnvironmentConfigurationSettingChange">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.EqualsInternal(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.AllInstances.EqualsObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.AllInstances.EqualsRoleEnvironmentConfigurationSettingChange">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.Equals(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentConfigurationSettingChange.AllInstances.GetHashCode01">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentConfigurationSettingChange.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentException"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentException)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentException.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.ConstructorSerializationInfoStreamingContext">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentException.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.ConstructorStringException">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentException.#ctor(System.String,System.Exception)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.ConstructorStringInt32">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentException.#ctor(System.String,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentException.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentStoppingEventArgs">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentStoppingEventArgs"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentStoppingEventArgs.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentStoppingEventArgs.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentStoppingEventArgs)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentStoppingEventArgs.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentStoppingEventArgs.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentStoppingEventArgs.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentStoppingEventArgs.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentStoppingEventArgs.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentStoppingEventArgs.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.Bind(System.IEquatable{Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.EqualsInternalRoleEnvironmentTopologyChange">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.EqualsInternal(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.EqualsObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.EqualsRoleEnvironmentTopologyChange">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.Equals(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.GetHashCode">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.RoleNameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.RoleName"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.RoleNameSetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.RoleName"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.AllInstances.EqualsInternalRoleEnvironmentTopologyChange">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.EqualsInternal(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.AllInstances.EqualsObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.AllInstances.EqualsRoleEnvironmentTopologyChange">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.Equals(Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.AllInstances.GetHashCode01">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.AllInstances.RoleNameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.RoleName"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleEnvironmentTopologyChange.AllInstances.RoleNameSetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentTopologyChange.RoleName"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstance">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleInstance"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstance.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleInstance)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstance.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstance.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstance.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstance.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleInstance.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstance.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceEndpoint">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceEndpoint"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceEndpoint.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceEndpoint)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceEndpoint.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceEndpoint.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceEndpoint.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceEndpoint.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceEndpoint.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceEndpoint.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.#ctor(Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.SetBusy">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs.SetBusy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.StatusGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs.Status"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.StatusSetRoleInstanceStatus">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs.Status"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.AllInstances.SetBusy">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs.SetBusy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.AllInstances.StatusGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs.Status"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MRoleInstanceStatusCheckEventArgs.AllInstances.StatusSetRoleInstanceStatus">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs.Status"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.#ctor(Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.GetDebugListener">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.GetDebugListener"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.InitializeLifetimeService">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.InitializeLifetimeService"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.InitializeRoleInt32">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.InitializeRole(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.InitializeStringArray">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.Initialize(System.String[])"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.RoleTypeGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.RoleType"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.RoleTypeSetRoleType">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.RoleType"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.StartRoleInt32">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.StartRole(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.StopRoleInt32">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.StopRole(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge._InitializeRoleb__0">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.&lt;InitializeRole&gt;b__0"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge._StartRoleb__2">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.&lt;StartRole&gt;b__2"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge._StopRoleb__4">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.&lt;StopRole&gt;b__4"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.AllInstances.GetDebugListener">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.GetDebugListener"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.AllInstances.InitializeLifetimeService">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.InitializeLifetimeService"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.AllInstances.InitializeRoleInt32">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.InitializeRole(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.AllInstances.InitializeStringArray">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.Initialize(System.String[])"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.AllInstances.RoleTypeGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.RoleType"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.AllInstances.RoleTypeSetRoleType">
+            <summary>Sets the mole of <see cref="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.RoleType"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.AllInstances.StartRoleInt32">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.StartRole(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.AllInstances.StopRoleInt32">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.StopRole(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MRoleRuntimeBridge.AllInstances._InitializeRoleb__0">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.RoleRuntimeBridge.&lt;InitializeRole&gt;b__0"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.WebHostBootstrapWebEventProvider"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.#ctor(Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.WebHostBootstrapWebEventProvider)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.WebHostBootstrapWebEventProvider.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.Flush">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.WebHostBootstrapWebEventProvider.Flush"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.InitializeStringNameValueCollection">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.WebHostBootstrapWebEventProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.ProcessEventWebBaseEvent">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.WebHostBootstrapWebEventProvider.ProcessEvent(System.Web.Management.WebBaseEvent)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.Shutdown">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.WebHostBootstrapWebEventProvider.Shutdown"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.AllInstances.Flush">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.WebHostBootstrapWebEventProvider.Flush"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.AllInstances.InitializeStringNameValueCollection">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.WebHostBootstrapWebEventProvider.Initialize(System.String,System.Collections.Specialized.NameValueCollection)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.AllInstances.ProcessEventWebBaseEvent">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.WebHostBootstrapWebEventProvider.ProcessEvent(System.Web.Management.WebBaseEvent)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.Moles.MWebHostBootstrapWebEventProvider.AllInstances.Shutdown">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.Implementation.Loader.WebHostBootstrapWebEventProvider.Shutdown"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.#ctor(Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.Bind(System.Security.IPermission)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.Bind(System.Security.ISecurityEncodable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.Bind(System.Security.IStackWalk)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.Bind(System.Security.Permissions.IUnrestrictedPermission)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.ConstructorBoolean">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.#ctor(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.ConstructorPermissionState">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.#ctor(System.Security.Permissions.PermissionState)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.Copy">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.Copy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.FromXmlSecurityElement">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.FromXml(System.Security.SecurityElement)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.IntersectIPermission">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.Intersect(System.Security.IPermission)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.IsSubsetOfIPermission">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.IsSubsetOf(System.Security.IPermission)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.IsUnrestricted">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.IsUnrestricted"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.ToXml">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.ToXml"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.UnionIPermission">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.Union(System.Security.IPermission)"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.AllInstances.Copy">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.Copy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.AllInstances.FromXmlSecurityElement">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.FromXml(System.Security.SecurityElement)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.AllInstances.IntersectIPermission">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.Intersect(System.Security.IPermission)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.AllInstances.IsSubsetOfIPermission">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.IsSubsetOf(System.Security.IPermission)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.AllInstances.IsUnrestricted">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.IsUnrestricted"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.AllInstances.ToXml">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.ToXml"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermission.AllInstances.UnionIPermission">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermission.Union(System.Security.IPermission)"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermissionAttribute">
+            <summary>Mole type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermissionAttribute"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermissionAttribute.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermissionAttribute.#ctor(Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermissionAttribute)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermissionAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermissionAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermissionAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermissionAttribute.ConstructorSecurityAction">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermissionAttribute.#ctor(System.Security.Permissions.SecurityAction)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermissionAttribute.CreatePermission">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermissionAttribute.CreatePermission"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermissionAttribute.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.MWindowsAzureHostingPermissionAttribute.AllInstances.CreatePermission">
+            <summary>Sets the mole of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.WindowsAzureHostingPermissionAttribute.CreatePermission"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEntryPoint">
+            <summary>Stub type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEntryPoint.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEntryPoint.InitializeStub">
+            <summary>Initializes a new instance of type SRoleEntryPoint</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEntryPoint.OnStart">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStart"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEntryPoint.OnStart01">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStart"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEntryPoint.OnStop">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStop"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEntryPoint.OnStop01">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStop"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEntryPoint.Run">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.Run"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEntryPoint.Run01">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.Run"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEntryPoint.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEntryPoint.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEnvironmentChange">
+            <summary>Stub type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentChange"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEnvironmentChange.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEnvironmentChange.InitializeStub">
+            <summary>Initializes a new instance of type SRoleEnvironmentChange</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEnvironmentChange.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEnvironmentChange.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEnvironmentStoppingEventArgs">
+            <summary>Stub type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleEnvironmentStoppingEventArgs"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEnvironmentStoppingEventArgs.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEnvironmentStoppingEventArgs.InitializeStub">
+            <summary>Initializes a new instance of type SRoleEnvironmentStoppingEventArgs</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEnvironmentStoppingEventArgs.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleEnvironmentStoppingEventArgs.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleInstanceStatusCheckEventArgs">
+            <summary>Stub type of <see cref="T:Microsoft.WindowsAzure.ServiceRuntime.RoleInstanceStatusCheckEventArgs"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleInstanceStatusCheckEventArgs.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleInstanceStatusCheckEventArgs.InitializeStub">
+            <summary>Initializes a new instance of type SRoleInstanceStatusCheckEventArgs</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleInstanceStatusCheckEventArgs.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.WindowsAzure.ServiceRuntime.Moles.SRoleInstanceStatusCheckEventArgs.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

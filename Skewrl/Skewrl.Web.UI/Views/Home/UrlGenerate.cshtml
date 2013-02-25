@@ -1,0 +1,37 @@
+﻿
+<section class="featured">
+    <div class="content-wrapper">
+        <hgroup class="title">                
+            <h2>@ViewBag.Message</h2>
+            @using (Html.BeginForm("Generate", "Home", FormMethod.Post, new { id = "frmUrlGen" }))
+            {
+                <div id="url-gen-wrapper">
+                    <h3>Enter your long URL: </h3>
+                    <input type="text" name="longurl" placeholder="Enter a long URL..." />
+                    <input type="submit" id="btnSubmit" value="Shorten URL" />   
+                    <img id="loader" src="/Images/busy.gif" style="display: none" />                     
+                </div>
+                <h5 id="form-error">
+                    
+                </h5>
+            }
+                                  
+        </hgroup>
+    </div>
+</section>
+<section class="content-wrapper main-content clear-fix">
+<div id="formStatus" style="display: none;">
+    <div class="float-left">
+        <h4>
+            Here is your shortened URL</h4>
+        <h2>
+            <span id="shorturl"></span>
+        </h2>
+    </div>
+    <div class="float-right">
+        <img id="qrcodeimg" width="150" height="150" alt="QR code for shortened URL" />
+    </div>
+    <div class="clear-fix">
+    </div>
+</div>
+</section>

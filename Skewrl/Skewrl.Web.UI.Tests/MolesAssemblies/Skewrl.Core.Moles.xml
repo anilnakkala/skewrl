@@ -1,0 +1,2594 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Skewrl.Core.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Skewrl.Core.Extensions.Moles.MAzureExtensions">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Extensions.AzureExtensions"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Extensions.Moles.MAzureExtensions.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Extensions.Moles.MAzureExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Extensions.Moles.MAzureExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Extensions.Moles.MAzureExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Extensions.Moles.MAzureExtensions.DownloadByteArrayICloudBlob">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Extensions.AzureExtensions.DownloadByteArray(Microsoft.WindowsAzure.Storage.Blob.ICloudBlob)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Extensions.Moles.MAzureExtensions.UploadByteArrayICloudBlobByteArrayBlobRequestOptions">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Extensions.AzureExtensions.UploadByteArray(Microsoft.WindowsAzure.Storage.Blob.ICloudBlob,System.Byte[],Microsoft.WindowsAzure.Storage.Blob.BlobRequestOptions)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.#ctor(Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.Bind(Skewrl.Core.Azure.IAzureObjectWithRetryPolicyFactory)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.RetryPolicyFactoryGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyFactory"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.RetryPolicyFactorySetIRetryPolicyFactory">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyFactory"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.RetryPolicyTraceObjectRetryingEventArgs">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyTrace(System.Object,Microsoft.Practices.TransientFaultHandling.RetryingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.AllInstances.GetRetryPolicyFactoryInstance">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.AllInstances.RetryPolicyFactoryGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyFactory"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.AllInstances.RetryPolicyFactorySetIRetryPolicyFactory">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyFactory"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MAzureObjectWithRetryPolicyFactory.AllInstances.RetryPolicyTraceObjectRetryingEventArgs">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyTrace(System.Object,Microsoft.Practices.TransientFaultHandling.RetryingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1">
+            <summary>Mole type of <see cref="T:Skewrl.Core.AzureStorage.AzureQueue`1"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.#ctor(Skewrl.Core.AzureStorage.AzureQueue{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.Bind(Skewrl.Core.Azure.IAzureObjectWithRetryPolicyFactory)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.Bind(Skewrl.Core.AzureStorage.IAzureQueue{`0})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.Bind(Skewrl.Core.AzureStorage.IUpdateableAzureQueue)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AddMessageT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.AddMessage(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.Clear">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.Clear"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.ConstructorCloudStorageAccount">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.#ctor(Microsoft.WindowsAzure.Storage.CloudStorageAccount)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.ConstructorCloudStorageAccountString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.#ctor(Microsoft.WindowsAzure.Storage.CloudStorageAccount,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.ConstructorCloudStorageAccountStringTimeSpan">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.#ctor(Microsoft.WindowsAzure.Storage.CloudStorageAccount,System.String,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.DeleteMessageAzureQueueMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.DeleteMessage(Skewrl.Core.AzureStorage.AzureQueueMessage)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.DeleteMessageT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.DeleteMessage(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.EnsureExist">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.EnsureExist"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.GetDeserializedMessageIUpdateableAzureQueueCloudQueueMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.GetDeserializedMessage(Skewrl.Core.AzureStorage.IUpdateableAzureQueue,Microsoft.WindowsAzure.Storage.Queue.CloudQueueMessage)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.GetMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.GetMessage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.GetMessagesInt32">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.GetMessages(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.GetSerializedMessageT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.GetSerializedMessage(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.UpdateMessageAzureQueueMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.UpdateMessage(Skewrl.Core.AzureStorage.AzureQueueMessage)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1._Clearb__12">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.&lt;Clear&gt;b__12"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1._EnsureExistb__11">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.&lt;EnsureExist&gt;b__11"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1._GetMessageb__6">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.&lt;GetMessage&gt;b__6"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances.AddMessageT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.AddMessage(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances.Clear">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.Clear"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances.DeleteMessageAzureQueueMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.DeleteMessage(Skewrl.Core.AzureStorage.AzureQueueMessage)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances.DeleteMessageT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.DeleteMessage(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances.EnsureExist">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.EnsureExist"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances.GetMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.GetMessage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances.GetMessagesInt32">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.GetMessages(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances.UpdateMessageAzureQueueMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.UpdateMessage(Skewrl.Core.AzureStorage.AzureQueueMessage)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances._Clearb__12">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.&lt;Clear&gt;b__12"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances._EnsureExistb__11">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.&lt;EnsureExist&gt;b__11"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueue`1.AllInstances._GetMessageb__6">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueue`1.&lt;GetMessage&gt;b__6"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage">
+            <summary>Mole type of <see cref="T:Skewrl.Core.AzureStorage.AzureQueueMessage"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.#ctor(Skewrl.Core.AzureStorage.AzureQueueMessage)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.DeleteQueueMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.DeleteQueueMessage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.GetMessageReference">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.GetMessageReference"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.GetUpdateableQueueReference">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.GetUpdateableQueueReference"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.SetMessageReferenceCloudQueueMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.SetMessageReference(Microsoft.WindowsAzure.Storage.Queue.CloudQueueMessage)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.SetUpdateableQueueReferenceIUpdateableAzureQueue">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.SetUpdateableQueueReference(Skewrl.Core.AzureStorage.IUpdateableAzureQueue)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.UpdateQueueMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.UpdateQueueMessage"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.AllInstances.DeleteQueueMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.DeleteQueueMessage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.AllInstances.GetMessageReference">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.GetMessageReference"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.AllInstances.GetUpdateableQueueReference">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.GetUpdateableQueueReference"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.AllInstances.SetMessageReferenceCloudQueueMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.SetMessageReference(Microsoft.WindowsAzure.Storage.Queue.CloudQueueMessage)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.AllInstances.SetUpdateableQueueReferenceIUpdateableAzureQueue">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.SetUpdateableQueueReference(Skewrl.Core.AzureStorage.IUpdateableAzureQueue)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureQueueMessage.AllInstances.UpdateQueueMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureQueueMessage.UpdateQueueMessage"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MAzureStorageWithRetryPolicy">
+            <summary>Mole type of <see cref="T:Skewrl.Core.AzureStorage.AzureStorageWithRetryPolicy"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureStorageWithRetryPolicy.#ctor(Skewrl.Core.AzureStorage.AzureStorageWithRetryPolicy)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureStorageWithRetryPolicy.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureStorageWithRetryPolicy.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MAzureStorageWithRetryPolicy.Bind(Skewrl.Core.Azure.IAzureObjectWithRetryPolicyFactory)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureStorageWithRetryPolicy.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureStorageWithRetryPolicy.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.AzureStorageWithRetryPolicy.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureStorageWithRetryPolicy.StorageRetryPolicyGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.AzureStorageWithRetryPolicy.StorageRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MAzureStorageWithRetryPolicy.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MAzureStorageWithRetryPolicy.AllInstances.StorageRetryPolicyGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.AzureStorageWithRetryPolicy.StorageRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.MAzureTableRepository`1">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Data.AzureTableRepository`1"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MAzureTableRepository`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MAzureTableRepository`1.#ctor(Skewrl.Core.Data.AzureTableRepository{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MAzureTableRepository`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MAzureTableRepository`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MAzureTableRepository`1.Bind(Skewrl.Core.Data.IRepository{`0})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.AddT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.Add(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.DeleteT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.Delete(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.FindAllFuncOfTBoolean">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.FindAll(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.FindFirstFuncOfTBoolean">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.FindFirst(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.FindNFuncOfTBooleanInt32">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.FindN(System.Func`2{`1,System.Boolean},System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.FindSingleFuncOfTBoolean">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.FindSingle(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.UpdateT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.Update(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1._FindAllb__0T">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.&lt;FindAll&gt;b__0(`1)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.MAzureTableRepository`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.AllInstances.AddT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.Add(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.AllInstances.DeleteT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.Delete(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.AllInstances.FindAllFuncOfTBoolean">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.FindAll(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.AllInstances.FindFirstFuncOfTBoolean">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.FindFirst(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.AllInstances.FindNFuncOfTBooleanInt32">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.FindN(System.Func`2{`1,System.Boolean},System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.AllInstances.FindSingleFuncOfTBoolean">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.FindSingle(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MAzureTableRepository`1.AllInstances.UpdateT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.AzureTableRepository`1.Update(`1)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.#ctor(Skewrl.Core.Azure.ConfiguredRetryPolicyFactory)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.Bind(Skewrl.Core.Azure.IRetryPolicyFactory)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.GetDefaultAzureCachingRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory.GetDefaultAzureCachingRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.GetDefaultAzureServiceBusRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory.GetDefaultAzureServiceBusRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.GetDefaultAzureStorageRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory.GetDefaultAzureStorageRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.GetDefaultSqlCommandRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory.GetDefaultSqlCommandRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.GetDefaultSqlConnectionRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory.GetDefaultSqlConnectionRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.AllInstances.GetDefaultAzureCachingRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory.GetDefaultAzureCachingRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.AllInstances.GetDefaultAzureServiceBusRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory.GetDefaultAzureServiceBusRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.AllInstances.GetDefaultAzureStorageRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory.GetDefaultAzureStorageRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.AllInstances.GetDefaultSqlCommandRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory.GetDefaultSqlCommandRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MConfiguredRetryPolicyFactory.AllInstances.GetDefaultSqlConnectionRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory.GetDefaultSqlConnectionRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Moles.MConstants">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Constants"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Moles.MConstants.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="T:Skewrl.Core.Moles.MConstants.MAzureBlobContainer">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Constants.AzureBlobContainer"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.MAzureBlobContainer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.MAzureBlobContainer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.MAzureBlobContainer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Moles.MConstants.MAzureBlobContainer.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="T:Skewrl.Core.Moles.MConstants.MAzureQueues">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Constants.AzureQueues"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.MAzureQueues.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.MAzureQueues.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.MAzureQueues.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Moles.MConstants.MAzureQueues.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="T:Skewrl.Core.Moles.MConstants.MSummaryType">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Constants.SummaryType"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.MSummaryType.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.MSummaryType.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Moles.MConstants.MSummaryType.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Moles.MConstants.MSummaryType.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="T:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Azure.DefaultRetryPolicyFactory"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.#ctor(Skewrl.Core.Azure.DefaultRetryPolicyFactory)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.Bind(Skewrl.Core.Azure.IRetryPolicyFactory)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.DefaultRetryPolicyFactory.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.GetDefaultAzureCachingRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.DefaultRetryPolicyFactory.GetDefaultAzureCachingRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.GetDefaultAzureServiceBusRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.DefaultRetryPolicyFactory.GetDefaultAzureServiceBusRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.GetDefaultAzureStorageRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.DefaultRetryPolicyFactory.GetDefaultAzureStorageRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.GetDefaultSqlCommandRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.DefaultRetryPolicyFactory.GetDefaultSqlCommandRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.GetDefaultSqlConnectionRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.DefaultRetryPolicyFactory.GetDefaultSqlConnectionRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.AllInstances.GetDefaultAzureCachingRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.DefaultRetryPolicyFactory.GetDefaultAzureCachingRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.AllInstances.GetDefaultAzureServiceBusRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.DefaultRetryPolicyFactory.GetDefaultAzureServiceBusRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.AllInstances.GetDefaultAzureStorageRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.DefaultRetryPolicyFactory.GetDefaultAzureStorageRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.AllInstances.GetDefaultSqlCommandRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.DefaultRetryPolicyFactory.GetDefaultSqlCommandRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.MDefaultRetryPolicyFactory.AllInstances.GetDefaultSqlConnectionRetryPolicy">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Azure.DefaultRetryPolicyFactory.GetDefaultSqlConnectionRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Extensions.Moles.MExceptionExtensions">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Extensions.ExceptionExtensions"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Extensions.Moles.MExceptionExtensions.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Extensions.Moles.MExceptionExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Extensions.Moles.MExceptionExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Extensions.Moles.MExceptionExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Extensions.Moles.MExceptionExtensions.BuildMessageException">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Extensions.ExceptionExtensions.BuildMessage(System.Exception)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Extensions.Moles.MExceptionExtensions.TraceInformationException">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Extensions.ExceptionExtensions.TraceInformation(System.Exception)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.QueueHandlers.Moles.MGenericQueueHandler`1">
+            <summary>Mole type of <see cref="T:Skewrl.Core.QueueHandlers.GenericQueueHandler`1"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.MGenericQueueHandler`1.#ctor(Skewrl.Core.QueueHandlers.GenericQueueHandler{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.MGenericQueueHandler`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.MGenericQueueHandler`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MGenericQueueHandler`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MGenericQueueHandler`1.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.GenericQueueHandler`1.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MGenericQueueHandler`1.ProcessMessagesIAzureQueueOfTIEnumerableOfTFuncOfTBoolean">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.GenericQueueHandler`1.ProcessMessages(Skewrl.Core.AzureStorage.IAzureQueue`1{`1},System.Collections.Generic.IEnumerable`1{`1},System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MGenericQueueHandler`1.SleepTimeSpan">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.GenericQueueHandler`1.Sleep(System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.QueueHandlers.Moles.MGenericQueueHandler`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MGenericQueueHandler`1.AllInstances.SleepTimeSpan">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.GenericQueueHandler`1.Sleep(System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Services.Moles.MLocationService">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Services.LocationService"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Services.Moles.MLocationService.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Services.Moles.MLocationService.#ctor(Skewrl.Core.Services.LocationService)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Services.Moles.MLocationService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Services.Moles.MLocationService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Services.Moles.MLocationService.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Services.Moles.MLocationService.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Services.LocationService.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Services.Moles.MLocationService.GetLocationByIpString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Services.LocationService.GetLocationByIp(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Services.Moles.MLocationService.InstanceGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Services.LocationService.Instance"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Services.Moles.MLocationService.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.Services.Moles.MLocationService.AllInstances.GetLocationByIpString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Services.LocationService.GetLocationByIp(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext">
+            <summary>Mole type of <see cref="T:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.#ctor(Skewrl.Core.AzureStorage.OptimisticConcurrencyContext)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.Bind(Skewrl.Core.AzureStorage.IConcurrencyControlContext)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.AccessConditionGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext.AccessCondition"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.AccessConditionSetAccessCondition">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext.AccessCondition"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.ObjectIdGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext.ObjectId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.ObjectIdSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext.ObjectId"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.AllInstances.AccessConditionGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext.AccessCondition"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.AllInstances.AccessConditionSetAccessCondition">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext.AccessCondition"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.AllInstances.ObjectIdGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext.ObjectId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MOptimisticConcurrencyContext.AllInstances.ObjectIdSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext.ObjectId"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext">
+            <summary>Mole type of <see cref="T:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.#ctor(Skewrl.Core.AzureStorage.PessimisticConcurrencyContext)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.Bind(Skewrl.Core.AzureStorage.IConcurrencyControlContext)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.DurationGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.Duration"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.DurationSetTimeSpan">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.Duration"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.LockIdGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.LockId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.LockIdSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.LockId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.ObjectIdGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.ObjectId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.ObjectIdSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.ObjectId"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.AllInstances.DurationGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.Duration"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.AllInstances.DurationSetTimeSpan">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.Duration"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.AllInstances.LockIdGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.LockId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.AllInstances.LockIdSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.LockId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.AllInstances.ObjectIdGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.ObjectId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MPessimisticConcurrencyContext.AllInstances.ObjectIdSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext.ObjectId"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.QueueHandlers.Moles.MQueueHandler">
+            <summary>Mole type of <see cref="T:Skewrl.Core.QueueHandlers.QueueHandler"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.MQueueHandler.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.MQueueHandler.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.MQueueHandler.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.MQueueHandler.ForIAzureQueueOfT``1(Microsoft.Moles.Framework.MolesDelegates.Func{Skewrl.Core.AzureStorage.IAzureQueue{``0},Skewrl.Core.QueueHandlers.QueueHandler{``0}})">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.QueueHandler.For``1(Skewrl.Core.AzureStorage.IAzureQueue`1{``0})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MQueueHandler.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="T:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1">
+            <summary>Mole type of <see cref="T:Skewrl.Core.QueueHandlers.QueueHandler`1"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.#ctor(Skewrl.Core.QueueHandlers.QueueHandler{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.ConstructorIAzureQueueOfT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.QueueHandler`1.#ctor(Skewrl.Core.AzureStorage.IAzureQueue`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.CycleICommandOfT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.QueueHandler`1.Cycle(Skewrl.Core.Commands.ICommand`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.DoICommandOfT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.QueueHandler`1.Do(Skewrl.Core.Commands.ICommand`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.EveryTimeSpan">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.QueueHandler`1.Every(System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.ForIAzureQueueOfT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.QueueHandler`1.For(Skewrl.Core.AzureStorage.IAzureQueue`1{`1})"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.AllInstances.CycleICommandOfT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.QueueHandler`1.Cycle(Skewrl.Core.Commands.ICommand`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.AllInstances.DoICommandOfT">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.QueueHandler`1.Do(Skewrl.Core.Commands.ICommand`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.MQueueHandler01`1.AllInstances.EveryTimeSpan">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.QueueHandlers.QueueHandler`1.Every(System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Config.Moles.MSkewrlConfig">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Config.SkewrlConfig"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Config.Moles.MSkewrlConfig.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Config.Moles.MSkewrlConfig.#ctor(Skewrl.Core.Config.SkewrlConfig)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Config.Moles.MSkewrlConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Config.Moles.MSkewrlConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.SkewrlConfig.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig.Init">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.SkewrlConfig.Init"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig.InitStorage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.SkewrlConfig.InitStorage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig.InitUnity">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.SkewrlConfig.InitUnity"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig.InstanceGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Config.SkewrlConfig.Instance"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig.StorageAccountGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Config.SkewrlConfig.StorageAccount"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig._InitStorageb__0Type">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.SkewrlConfig.&lt;InitStorage&gt;b__0(System.Type)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig._InitStorageb__1Type">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.SkewrlConfig.&lt;InitStorage&gt;b__1(System.Type)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Config.Moles.MSkewrlConfig.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig.AllInstances.Init">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.SkewrlConfig.Init"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig.AllInstances.InitStorage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.SkewrlConfig.InitStorage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig.AllInstances.InitUnity">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.SkewrlConfig.InitUnity"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MSkewrlConfig.AllInstances.StorageAccountGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Config.SkewrlConfig.StorageAccount"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Logging.Moles.MTraceHelper">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Logging.TraceHelper"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Logging.Moles.MTraceHelper.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Logging.Moles.MTraceHelper.#ctor(Skewrl.Core.Logging.TraceHelper)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Logging.Moles.MTraceHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Logging.Moles.MTraceHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Logging.Moles.MTraceHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Logging.Moles.MTraceHelper.ConfigureSourceLevels">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Logging.TraceHelper.Configure(System.Diagnostics.SourceLevels)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Logging.Moles.MTraceHelper.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Logging.TraceHelper.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Logging.Moles.MTraceHelper.TraceErrorStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Logging.TraceHelper.TraceError(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Logging.Moles.MTraceHelper.TraceInformationStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Logging.TraceHelper.TraceInformation(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Logging.Moles.MTraceHelper.TraceVerboseStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Logging.TraceHelper.TraceVerbose(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Logging.Moles.MTraceHelper.TraceWarningStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Logging.TraceHelper.TraceWarning(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Logging.Moles.MTraceHelper.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Skewrl.Core.Config.Moles.MUnityConfig">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Config.UnityConfig"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Config.Moles.MUnityConfig.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Config.Moles.MUnityConfig.#ctor(Skewrl.Core.Config.UnityConfig)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Config.Moles.MUnityConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Config.Moles.MUnityConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Config.Moles.MUnityConfig.Resolve``1(Microsoft.Moles.Framework.MolesDelegates.Func{``0})">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.UnityConfig.Resolve``1"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MUnityConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MUnityConfig.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.UnityConfig.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MUnityConfig.ContainerGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Config.UnityConfig.Container"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MUnityConfig.InstanceGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Config.UnityConfig.Instance"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MUnityConfig.ResolveType">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.UnityConfig.Resolve(System.Type)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MUnityConfig._ctorb__0">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.UnityConfig.&lt;.ctor&gt;b__0"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Config.Moles.MUnityConfig.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="M:Skewrl.Core.Config.Moles.MUnityConfig.AllInstances.Resolve``1(Microsoft.Moles.Framework.MolesDelegates.Func{Skewrl.Core.Config.UnityConfig,``0})">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.UnityConfig.Resolve``1"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MUnityConfig.AllInstances.ContainerGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Config.UnityConfig.Container"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MUnityConfig.AllInstances.ResolveType">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.UnityConfig.Resolve(System.Type)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Config.Moles.MUnityConfig.AllInstances._ctorb__0">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Config.UnityConfig.&lt;.ctor&gt;b__0"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Model.Moles.MUrlMap">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Data.Model.UrlMap"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlMap.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlMap.#ctor(Skewrl.Core.Data.Model.UrlMap)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlMap.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlMap.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.ClicksGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.ClicksSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.Model.UrlMap.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.DateCreatedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.DateCreated"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.DateCreatedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.DateCreated"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.IsActiveGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.IsActiveSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.LastAccessedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.LastAccessed"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.LastAccessedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.LastAccessed"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.OriginalUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.OriginalUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.OriginalUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.OriginalUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.ShortUrlCodeGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.ShortUrlCodeSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.ShortUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.ShortUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.UserNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.UserName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.UserNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.UserName"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.ClicksGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.ClicksSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.DateCreatedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.DateCreated"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.DateCreatedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.DateCreated"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.IsActiveGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.IsActiveSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.LastAccessedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.LastAccessed"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.LastAccessedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.LastAccessed"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.OriginalUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.OriginalUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.OriginalUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.OriginalUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.ShortUrlCodeGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.ShortUrlCodeSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.ShortUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.ShortUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.UserNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.UserName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlMap.AllInstances.UserNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlMap.UserName"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.MUrlMapDataSource">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Data.UrlMapDataSource"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MUrlMapDataSource.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MUrlMapDataSource.#ctor(Skewrl.Core.Data.UrlMapDataSource)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MUrlMapDataSource.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MUrlMapDataSource.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MUrlMapDataSource.Bind(Skewrl.Core.Data.IUrlMapDataSource)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AddUrlMapUrlMapString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.AddUrlMap(Skewrl.Core.Data.Model.UrlMap,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.ChangeUrlStatusStringBoolean">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.ChangeUrlStatus(System.String,System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.ConstructorIRepositoryOfUrlMapIRepositoryOfUrlSummary">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.#ctor(Skewrl.Core.Data.IRepository`1{Skewrl.Core.Data.Model.UrlMap},Skewrl.Core.Data.IRepository`1{Skewrl.Core.Data.Model.UrlSummary})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.FindAllUrlsByUserNameString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.FindAllUrlsByUserName(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.FindByActualUrlString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.FindByActualUrl(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.FindByShortUrlKeyString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.FindByShortUrlKey(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.FindSingleUrlByUserNameStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.FindSingleUrlByUserName(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.FindTop100Mappings">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.FindTop100Mappings"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.GetQRCodeToFileStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.GetQRCodeToFile(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.RemoveUrlMapStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.RemoveUrlMap(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.RemoveUrlMapUrlMapString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.RemoveUrlMap(Skewrl.Core.Data.Model.UrlMap,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.SaveQRCodeStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.SaveQRCode(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.UpdateMapUrlMap">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.UpdateMap(Skewrl.Core.Data.Model.UrlMap)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.AddUrlMapUrlMapString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.AddUrlMap(Skewrl.Core.Data.Model.UrlMap,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.ChangeUrlStatusStringBoolean">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.ChangeUrlStatus(System.String,System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.FindAllUrlsByUserNameString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.FindAllUrlsByUserName(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.FindByActualUrlString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.FindByActualUrl(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.FindByShortUrlKeyString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.FindByShortUrlKey(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.FindSingleUrlByUserNameStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.FindSingleUrlByUserName(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.FindTop100Mappings">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.FindTop100Mappings"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.GetQRCodeToFileStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.GetQRCodeToFile(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.RemoveUrlMapStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.RemoveUrlMap(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.RemoveUrlMapUrlMapString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.RemoveUrlMap(Skewrl.Core.Data.Model.UrlMap,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.SaveQRCodeStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.SaveQRCode(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlMapDataSource.AllInstances.UpdateMapUrlMap">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlMapDataSource.UpdateMap(Skewrl.Core.Data.Model.UrlMap)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage">
+            <summary>Mole type of <see cref="T:Skewrl.Core.AzureStorage.UrlRedirectMessage"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.#ctor(Skewrl.Core.AzureStorage.UrlRedirectMessage)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AcceptLanguageGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.AcceptLanguage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AcceptLanguageSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.AcceptLanguage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.ActualUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.ActualUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.ActualUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.ActualUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.AzureStorage.UrlRedirectMessage.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.DateVisitedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.DateVisited"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.DateVisitedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.DateVisited"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.RefererGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.Referer"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.RefererSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.Referer"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.UrlKeyGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.UrlKeySetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.UserAgentGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.UserAgent"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.UserAgentSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.UserAgent"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.VisitorIPGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.VisitorIP"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.VisitorIPSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.VisitorIP"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.AcceptLanguageGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.AcceptLanguage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.AcceptLanguageSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.AcceptLanguage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.ActualUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.ActualUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.ActualUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.ActualUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.DateVisitedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.DateVisited"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.DateVisitedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.DateVisited"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.RefererGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.Referer"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.RefererSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.Referer"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.UrlKeyGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.UrlKeySetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.UserAgentGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.UserAgent"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.UserAgentSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.UserAgent"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.VisitorIPGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.VisitorIP"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.MUrlRedirectMessage.AllInstances.VisitorIPSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.AzureStorage.UrlRedirectMessage.VisitorIP"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Model.Moles.MUrlSummary">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Data.Model.UrlSummary"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlSummary.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlSummary.#ctor(Skewrl.Core.Data.Model.UrlSummary)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlSummary.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlSummary.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.Model.UrlSummary.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.CountGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.Count"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.CountSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.Count"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.SummaryTypeGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.SummaryType"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.SummaryTypeSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.SummaryType"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.UrlKeyGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.UrlKeySetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.ValueGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.Value"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.ValueSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.Value"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Model.Moles.MUrlSummary.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.AllInstances.CountGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.Count"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.AllInstances.CountSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.Count"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.AllInstances.SummaryTypeGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.SummaryType"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.AllInstances.SummaryTypeSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.SummaryType"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.AllInstances.UrlKeyGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.AllInstances.UrlKeySetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.AllInstances.ValueGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.Value"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlSummary.AllInstances.ValueSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlSummary.Value"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.MUrlTrackerDataSource">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Data.UrlTrackerDataSource"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.#ctor(Skewrl.Core.Data.UrlTrackerDataSource)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.Bind(Skewrl.Core.Data.IUrlTrackerDataSource)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.ConstructorIRepositoryOfUrlVisitedIAzureQueueOfUrlRedirectMessageIRepositoryOfUrlSummary">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlTrackerDataSource.#ctor(Skewrl.Core.Data.IRepository`1{Skewrl.Core.Data.Model.UrlVisited},Skewrl.Core.AzureStorage.IAzureQueue`1{Skewrl.Core.AzureStorage.UrlRedirectMessage},Skewrl.Core.Data.IRepository`1{Skewrl.Core.Data.Model.UrlSummary})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.GetSummaryStringInt32">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlTrackerDataSource.GetSummary(System.String,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.SendUrlVisitedMessageUrlRedirectMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlTrackerDataSource.SendUrlVisitedMessage(Skewrl.Core.AzureStorage.UrlRedirectMessage)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.UpdateSummaryStringStringInt32">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlTrackerDataSource.UpdateSummary(System.String,System.String,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.UpdateVisitDataUrlVisited">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlTrackerDataSource.UpdateVisitData(Skewrl.Core.Data.Model.UrlVisited)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.AllInstances.GetSummaryStringInt32">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlTrackerDataSource.GetSummary(System.String,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.AllInstances.SendUrlVisitedMessageUrlRedirectMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlTrackerDataSource.SendUrlVisitedMessage(Skewrl.Core.AzureStorage.UrlRedirectMessage)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.AllInstances.UpdateSummaryStringStringInt32">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlTrackerDataSource.UpdateSummary(System.String,System.String,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.MUrlTrackerDataSource.AllInstances.UpdateVisitDataUrlVisited">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.UrlTrackerDataSource.UpdateVisitData(Skewrl.Core.Data.Model.UrlVisited)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Model.Moles.MUrlVisited">
+            <summary>Mole type of <see cref="T:Skewrl.Core.Data.Model.UrlVisited"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlVisited.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlVisited.#ctor(Skewrl.Core.Data.Model.UrlVisited)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlVisited.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.MUrlVisited.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AcceptLanguageGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.AcceptLanguage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AcceptLanguageSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.AcceptLanguage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.ActualUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.ActualUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.ActualUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.ActualUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Core.Data.Model.UrlVisited.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.DateVisitedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.DateVisited"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.DateVisitedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.DateVisited"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.RefererGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.Referer"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.RefererSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.Referer"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.UrlKeyGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.UrlKeySetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.UserAgentGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.UserAgent"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.UserAgentSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.UserAgent"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.VisitorIPGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.VisitorIP"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.VisitorIPSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.VisitorIP"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.AcceptLanguageGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.AcceptLanguage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.AcceptLanguageSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.AcceptLanguage"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.ActualUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.ActualUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.ActualUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.ActualUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.DateVisitedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.DateVisited"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.DateVisitedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.DateVisited"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.RefererGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.Referer"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.RefererSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.Referer"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.UrlKeyGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.UrlKeySetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.UrlKey"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.UserAgentGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.UserAgent"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.UserAgentSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.UserAgent"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.VisitorIPGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.VisitorIP"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.MUrlVisited.AllInstances.VisitorIPSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Core.Data.Model.UrlVisited.VisitorIP"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Azure.Moles.SAzureObjectWithRetryPolicyFactory">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SAzureObjectWithRetryPolicyFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SAzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Azure.Moles.SAzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance01">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SAzureObjectWithRetryPolicyFactory.InitializeStub">
+            <summary>Initializes a new instance of type SAzureObjectWithRetryPolicyFactory</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SAzureObjectWithRetryPolicyFactory.RetryPolicyTrace(System.Object,Microsoft.Practices.TransientFaultHandling.RetryingEventArgs)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyTrace(System.Object,Microsoft.Practices.TransientFaultHandling.RetryingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Azure.Moles.SAzureObjectWithRetryPolicyFactory.RetryPolicyTraceObjectRetryingEventArgs">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyTrace(System.Object,Microsoft.Practices.TransientFaultHandling.RetryingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.SAzureObjectWithRetryPolicyFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.SAzureObjectWithRetryPolicyFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.SAzureQueue`1">
+            <summary>Stub type of <see cref="T:Skewrl.Core.AzureStorage.AzureQueue`1"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureQueue`1.#ctor(Microsoft.WindowsAzure.Storage.CloudStorageAccount)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureQueue`1.#ctor(Microsoft.WindowsAzure.Storage.CloudStorageAccount,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureQueue`1.#ctor(Microsoft.WindowsAzure.Storage.CloudStorageAccount,System.String,System.TimeSpan)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureQueue`1.GetRetryPolicyFactoryInstance">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SAzureQueue`1.GetRetryPolicyFactoryInstance01">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureQueue`1.InitializeStub">
+            <summary>Initializes a new instance of type SAzureQueue</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureQueue`1.RetryPolicyTrace(System.Object,Microsoft.Practices.TransientFaultHandling.RetryingEventArgs)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyTrace(System.Object,Microsoft.Practices.TransientFaultHandling.RetryingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SAzureQueue`1.RetryPolicyTraceObjectRetryingEventArgs">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyTrace(System.Object,Microsoft.Practices.TransientFaultHandling.RetryingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SAzureQueue`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SAzureQueue`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.SAzureQueueMessage">
+            <summary>Stub type of <see cref="T:Skewrl.Core.AzureStorage.AzureQueueMessage"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureQueueMessage.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureQueueMessage.InitializeStub">
+            <summary>Initializes a new instance of type SAzureQueueMessage</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SAzureQueueMessage.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SAzureQueueMessage.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.SAzureStorageWithRetryPolicy">
+            <summary>Stub type of <see cref="T:Skewrl.Core.AzureStorage.AzureStorageWithRetryPolicy"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureStorageWithRetryPolicy.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureStorageWithRetryPolicy.GetRetryPolicyFactoryInstance">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SAzureStorageWithRetryPolicy.GetRetryPolicyFactoryInstance01">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureStorageWithRetryPolicy.InitializeStub">
+            <summary>Initializes a new instance of type SAzureStorageWithRetryPolicy</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SAzureStorageWithRetryPolicy.RetryPolicyTrace(System.Object,Microsoft.Practices.TransientFaultHandling.RetryingEventArgs)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyTrace(System.Object,Microsoft.Practices.TransientFaultHandling.RetryingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SAzureStorageWithRetryPolicy.RetryPolicyTraceObjectRetryingEventArgs">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.AzureObjectWithRetryPolicyFactory.RetryPolicyTrace(System.Object,Microsoft.Practices.TransientFaultHandling.RetryingEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SAzureStorageWithRetryPolicy.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SAzureStorageWithRetryPolicy.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.SAzureTableRepository`1">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Data.AzureTableRepository`1"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SAzureTableRepository`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SAzureTableRepository`1.InitializeStub">
+            <summary>Initializes a new instance of type SAzureTableRepository</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.SAzureTableRepository`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.SAzureTableRepository`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.Azure.Moles.SConfiguredRetryPolicyFactory">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Azure.ConfiguredRetryPolicyFactory"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SConfiguredRetryPolicyFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SConfiguredRetryPolicyFactory.InitializeStub">
+            <summary>Initializes a new instance of type SConfiguredRetryPolicyFactory</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.SConfiguredRetryPolicyFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.SConfiguredRetryPolicyFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.Azure.Moles.SDefaultRetryPolicyFactory">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Azure.DefaultRetryPolicyFactory"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SDefaultRetryPolicyFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SDefaultRetryPolicyFactory.InitializeStub">
+            <summary>Initializes a new instance of type SDefaultRetryPolicyFactory</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.SDefaultRetryPolicyFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.SDefaultRetryPolicyFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.QueueHandlers.Moles.SGenericQueueHandler`1">
+            <summary>Stub type of <see cref="T:Skewrl.Core.QueueHandlers.GenericQueueHandler`1"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.SGenericQueueHandler`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.SGenericQueueHandler`1.InitializeStub">
+            <summary>Initializes a new instance of type SGenericQueueHandler</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.SGenericQueueHandler`1.Sleep(System.TimeSpan)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.QueueHandlers.GenericQueueHandler`1.Sleep(System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.QueueHandlers.Moles.SGenericQueueHandler`1.SleepTimeSpan">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.QueueHandlers.GenericQueueHandler`1.Sleep(System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.SGenericQueueHandler`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.SGenericQueueHandler`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.Azure.Moles.SIAzureObjectWithRetryPolicyFactory">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Azure.IAzureObjectWithRetryPolicyFactory"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SIAzureObjectWithRetryPolicyFactory.#ctor">
+            <summary>Initializes a new instance of type SIAzureObjectWithRetryPolicyFactory</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SIAzureObjectWithRetryPolicyFactory.AttachBackingFieldToRetryPolicyFactory">
+            <summary>Attaches delegates to emulate SIAzureObjectWithRetryPolicyFactory.RetryPolicyFactory as a property with a backing field</summary>
+        </member>
+        <member name="F:Skewrl.Core.Azure.Moles.SIAzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IAzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Azure.Moles.SIAzureObjectWithRetryPolicyFactory.RetryPolicyFactoryGet">
+            <summary>Sets the stub of <see cref="P:Skewrl.Core.Azure.IAzureObjectWithRetryPolicyFactory.RetryPolicyFactory"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Azure.Moles.SIAzureObjectWithRetryPolicyFactory.RetryPolicyFactorySetIRetryPolicyFactory">
+            <summary>Sets the stub of <see cref="P:Skewrl.Core.Azure.IAzureObjectWithRetryPolicyFactory.RetryPolicyFactory"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SIAzureObjectWithRetryPolicyFactory.sc::Skewrl#Core#Azure#IAzureObjectWithRetryPolicyFactory#GetRetryPolicyFactoryInstance">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IAzureObjectWithRetryPolicyFactory.GetRetryPolicyFactoryInstance"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.Azure.Moles.SIAzureObjectWithRetryPolicyFactory.sc::Skewrl#Core#Azure#IAzureObjectWithRetryPolicyFactory#RetryPolicyFactory">
+            <summary>Sets the stub of <see cref="P:Skewrl.Core.Azure.IAzureObjectWithRetryPolicyFactory.RetryPolicyFactory"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1">
+            <summary>Stub type of <see cref="T:Skewrl.Core.AzureStorage.IAzureQueue`1"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.#ctor">
+            <summary>Initializes a new instance of type SIAzureQueue</summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.AddMessageT">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.AddMessage(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.Clear">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.Clear"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.DeleteMessageT">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.DeleteMessage(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.EnsureExist">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.EnsureExist"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.GetMessage">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.GetMessage"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.GetMessagesInt32">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.GetMessages(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.sc::Skewrl#Core#AzureStorage#IAzureQueue{T}#AddMessage(`0)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.AddMessage(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.sc::Skewrl#Core#AzureStorage#IAzureQueue{T}#Clear">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.Clear"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.sc::Skewrl#Core#AzureStorage#IAzureQueue{T}#DeleteMessage(`0)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.DeleteMessage(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.sc::Skewrl#Core#AzureStorage#IAzureQueue{T}#EnsureExist">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.EnsureExist"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.sc::Skewrl#Core#AzureStorage#IAzureQueue{T}#GetMessage">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.GetMessage"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIAzureQueue`1.sc::Skewrl#Core#AzureStorage#IAzureQueue{T}#GetMessages(System.Int32)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IAzureQueue`1.GetMessages(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.SIConcurrencyControlContext">
+            <summary>Stub type of <see cref="T:Skewrl.Core.AzureStorage.IConcurrencyControlContext"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIConcurrencyControlContext.#ctor">
+            <summary>Initializes a new instance of type SIConcurrencyControlContext</summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIConcurrencyControlContext.ObjectIdGet">
+            <summary>Sets the stub of <see cref="P:Skewrl.Core.AzureStorage.IConcurrencyControlContext.ObjectId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SIConcurrencyControlContext.sc::Skewrl#Core#AzureStorage#IConcurrencyControlContext#ObjectId">
+            <summary>Sets the stub of <see cref="P:Skewrl.Core.AzureStorage.IConcurrencyControlContext.ObjectId"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.SIListBlobItemWithName">
+            <summary>Stub type of <see cref="T:Skewrl.Core.AzureStorage.IListBlobItemWithName"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIListBlobItemWithName.#ctor">
+            <summary>Initializes a new instance of type SIListBlobItemWithName</summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIListBlobItemWithName.ContainerGet">
+            <summary>Sets the stub of <see cref="P:Microsoft.WindowsAzure.Storage.Blob.IListBlobItem.Container"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIListBlobItemWithName.NameGet">
+            <summary>Sets the stub of <see cref="P:Skewrl.Core.AzureStorage.IListBlobItemWithName.Name"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIListBlobItemWithName.ParentGet">
+            <summary>Sets the stub of <see cref="P:Microsoft.WindowsAzure.Storage.Blob.IListBlobItem.Parent"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIListBlobItemWithName.UriGet">
+            <summary>Sets the stub of <see cref="P:Microsoft.WindowsAzure.Storage.Blob.IListBlobItem.Uri"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SIListBlobItemWithName.mwas::Microsoft#WindowsAzure#Storage#Blob#IListBlobItem#Container">
+            <summary>Sets the stub of <see cref="P:Microsoft.WindowsAzure.Storage.Blob.IListBlobItem.Container"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SIListBlobItemWithName.sc::Skewrl#Core#AzureStorage#IListBlobItemWithName#Name">
+            <summary>Sets the stub of <see cref="P:Skewrl.Core.AzureStorage.IListBlobItemWithName.Name"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SIListBlobItemWithName.mwas::Microsoft#WindowsAzure#Storage#Blob#IListBlobItem#Parent">
+            <summary>Sets the stub of <see cref="P:Microsoft.WindowsAzure.Storage.Blob.IListBlobItem.Parent"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SIListBlobItemWithName.mwas::Microsoft#WindowsAzure#Storage#Blob#IListBlobItem#Uri">
+            <summary>Sets the stub of <see cref="P:Microsoft.WindowsAzure.Storage.Blob.IListBlobItem.Uri"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.SIRepository`1">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Data.IRepository`1"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIRepository`1.#ctor">
+            <summary>Initializes a new instance of type SIRepository</summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIRepository`1.AddT">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.Add(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIRepository`1.DeleteT">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.Delete(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIRepository`1.FindAllFuncOfTBoolean">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.FindAll(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIRepository`1.FindFirstFuncOfTBoolean">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.FindFirst(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIRepository`1.FindNFuncOfTBooleanInt32">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.FindN(System.Func`2{`1,System.Boolean},System.Int32)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIRepository`1.FindSingleFuncOfTBoolean">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.FindSingle(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIRepository`1.sc::Skewrl#Core#Data#IRepository{T}#Add(`0)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.Add(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIRepository`1.sc::Skewrl#Core#Data#IRepository{T}#Delete(`0)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.Delete(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIRepository`1.sc::Skewrl#Core#Data#IRepository{T}#FindAll(System.Func{`0,System.Boolean})">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.FindAll(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIRepository`1.sc::Skewrl#Core#Data#IRepository{T}#FindFirst(System.Func{`0,System.Boolean})">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.FindFirst(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIRepository`1.sc::Skewrl#Core#Data#IRepository{T}#FindN(System.Func{`0,System.Boolean},System.Int32)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.FindN(System.Func`2{`1,System.Boolean},System.Int32)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIRepository`1.sc::Skewrl#Core#Data#IRepository{T}#FindSingle(System.Func{`0,System.Boolean})">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.FindSingle(System.Func`2{`1,System.Boolean})"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIRepository`1.sc::Skewrl#Core#Data#IRepository{T}#Update(`0)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.Update(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIRepository`1.UpdateT">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IRepository`1.Update(`1)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Azure.IRetryPolicyFactory"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory.#ctor">
+            <summary>Initializes a new instance of type SIRetryPolicyFactory</summary>
+        </member>
+        <member name="F:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory.GetDefaultAzureCachingRetryPolicy">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IRetryPolicyFactory.GetDefaultAzureCachingRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory.GetDefaultAzureServiceBusRetryPolicy">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IRetryPolicyFactory.GetDefaultAzureServiceBusRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory.GetDefaultAzureStorageRetryPolicy">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IRetryPolicyFactory.GetDefaultAzureStorageRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory.GetDefaultSqlCommandRetryPolicy">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IRetryPolicyFactory.GetDefaultSqlCommandRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory.GetDefaultSqlConnectionRetryPolicy">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IRetryPolicyFactory.GetDefaultSqlConnectionRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory.sc::Skewrl#Core#Azure#IRetryPolicyFactory#GetDefaultAzureCachingRetryPolicy">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IRetryPolicyFactory.GetDefaultAzureCachingRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory.sc::Skewrl#Core#Azure#IRetryPolicyFactory#GetDefaultAzureServiceBusRetryPolicy">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IRetryPolicyFactory.GetDefaultAzureServiceBusRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory.sc::Skewrl#Core#Azure#IRetryPolicyFactory#GetDefaultAzureStorageRetryPolicy">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IRetryPolicyFactory.GetDefaultAzureStorageRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory.sc::Skewrl#Core#Azure#IRetryPolicyFactory#GetDefaultSqlCommandRetryPolicy">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IRetryPolicyFactory.GetDefaultSqlCommandRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Azure.Moles.SIRetryPolicyFactory.sc::Skewrl#Core#Azure#IRetryPolicyFactory#GetDefaultSqlConnectionRetryPolicy">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Azure.IRetryPolicyFactory.GetDefaultSqlConnectionRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.SIUpdateableAzureQueue">
+            <summary>Stub type of <see cref="T:Skewrl.Core.AzureStorage.IUpdateableAzureQueue"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIUpdateableAzureQueue.#ctor">
+            <summary>Initializes a new instance of type SIUpdateableAzureQueue</summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIUpdateableAzureQueue.DeleteMessageAzureQueueMessage">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IUpdateableAzureQueue.DeleteMessage(Skewrl.Core.AzureStorage.AzureQueueMessage)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIUpdateableAzureQueue.sc::Skewrl#Core#AzureStorage#IUpdateableAzureQueue#DeleteMessage(Skewrl.Core.AzureStorage.AzureQueueMessage)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IUpdateableAzureQueue.DeleteMessage(Skewrl.Core.AzureStorage.AzureQueueMessage)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SIUpdateableAzureQueue.sc::Skewrl#Core#AzureStorage#IUpdateableAzureQueue#UpdateMessage(Skewrl.Core.AzureStorage.AzureQueueMessage)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IUpdateableAzureQueue.UpdateMessage(Skewrl.Core.AzureStorage.AzureQueueMessage)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.AzureStorage.Moles.SIUpdateableAzureQueue.UpdateMessageAzureQueueMessage">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.AzureStorage.IUpdateableAzureQueue.UpdateMessage(Skewrl.Core.AzureStorage.AzureQueueMessage)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.SIUrlMapDataSource">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Data.IUrlMapDataSource"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.#ctor">
+            <summary>Initializes a new instance of type SIUrlMapDataSource</summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.AddUrlMapUrlMapString">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.AddUrlMap(Skewrl.Core.Data.Model.UrlMap,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.ChangeUrlStatusStringBoolean">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.ChangeUrlStatus(System.String,System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.FindAllUrlsByUserNameString">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.FindAllUrlsByUserName(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.FindByActualUrlString">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.FindByActualUrl(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.FindByShortUrlKeyString">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.FindByShortUrlKey(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.FindSingleUrlByUserNameStringString">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.FindSingleUrlByUserName(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.FindTop100Mappings">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.FindTop100Mappings"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.GetQRCodeToFileStringString">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.GetQRCodeToFile(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.RemoveUrlMapStringString">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.RemoveUrlMap(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.RemoveUrlMapUrlMapString">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.RemoveUrlMap(Skewrl.Core.Data.Model.UrlMap,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.SaveQRCodeStringString">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.SaveQRCode(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#AddUrlMap(Skewrl.Core.Data.Model.UrlMap,System.String)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.AddUrlMap(Skewrl.Core.Data.Model.UrlMap,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#ChangeUrlStatus(System.String,System.Boolean)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.ChangeUrlStatus(System.String,System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#FindAllUrlsByUserName(System.String)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.FindAllUrlsByUserName(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#FindByActualUrl(System.String)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.FindByActualUrl(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#FindByShortUrlKey(System.String)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.FindByShortUrlKey(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#FindSingleUrlByUserName(System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.FindSingleUrlByUserName(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#FindTop100Mappings">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.FindTop100Mappings"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#GetQRCodeToFile(System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.GetQRCodeToFile(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#RemoveUrlMap(Skewrl.Core.Data.Model.UrlMap,System.String)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.RemoveUrlMap(Skewrl.Core.Data.Model.UrlMap,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#RemoveUrlMap(System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.RemoveUrlMap(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#SaveQRCode(System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.SaveQRCode(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlMapDataSource.sc::Skewrl#Core#Data#IUrlMapDataSource#UpdateMap(Skewrl.Core.Data.Model.UrlMap)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.UpdateMap(Skewrl.Core.Data.Model.UrlMap)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlMapDataSource.UpdateMapUrlMap">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlMapDataSource.UpdateMap(Skewrl.Core.Data.Model.UrlMap)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.SIUrlTrackerDataSource">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Data.IUrlTrackerDataSource"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlTrackerDataSource.#ctor">
+            <summary>Initializes a new instance of type SIUrlTrackerDataSource</summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlTrackerDataSource.GetSummaryStringInt32">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlTrackerDataSource.GetSummary(System.String,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlTrackerDataSource.SendUrlVisitedMessageUrlRedirectMessage">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlTrackerDataSource.SendUrlVisitedMessage(Skewrl.Core.AzureStorage.UrlRedirectMessage)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlTrackerDataSource.sc::Skewrl#Core#Data#IUrlTrackerDataSource#GetSummary(System.String,System.Int32)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlTrackerDataSource.GetSummary(System.String,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlTrackerDataSource.sc::Skewrl#Core#Data#IUrlTrackerDataSource#SendUrlVisitedMessage(Skewrl.Core.AzureStorage.UrlRedirectMessage)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlTrackerDataSource.SendUrlVisitedMessage(Skewrl.Core.AzureStorage.UrlRedirectMessage)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SIUrlTrackerDataSource.sc::Skewrl#Core#Data#IUrlTrackerDataSource#UpdateVisitData(Skewrl.Core.Data.Model.UrlVisited)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlTrackerDataSource.UpdateVisitData(Skewrl.Core.Data.Model.UrlVisited)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.Data.Moles.SIUrlTrackerDataSource.UpdateVisitDataUrlVisited">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.Data.IUrlTrackerDataSource.UpdateVisitData(Skewrl.Core.Data.Model.UrlVisited)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.SOptimisticConcurrencyContext">
+            <summary>Stub type of <see cref="T:Skewrl.Core.AzureStorage.OptimisticConcurrencyContext"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SOptimisticConcurrencyContext.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SOptimisticConcurrencyContext.InitializeStub">
+            <summary>Initializes a new instance of type SOptimisticConcurrencyContext</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SOptimisticConcurrencyContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SOptimisticConcurrencyContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.SPessimisticConcurrencyContext">
+            <summary>Stub type of <see cref="T:Skewrl.Core.AzureStorage.PessimisticConcurrencyContext"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SPessimisticConcurrencyContext.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SPessimisticConcurrencyContext.InitializeStub">
+            <summary>Initializes a new instance of type SPessimisticConcurrencyContext</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SPessimisticConcurrencyContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SPessimisticConcurrencyContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.QueueHandlers.Moles.SQueueHandler`1">
+            <summary>Stub type of <see cref="T:Skewrl.Core.QueueHandlers.QueueHandler`1"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.SQueueHandler`1.#ctor(Skewrl.Core.AzureStorage.IAzureQueue{`0})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.SQueueHandler`1.Do(Skewrl.Core.Commands.ICommand{`0})">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.QueueHandlers.QueueHandler`1.Do(Skewrl.Core.Commands.ICommand`1{`1})"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.QueueHandlers.Moles.SQueueHandler`1.DoICommandOfT">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.QueueHandlers.QueueHandler`1.Do(Skewrl.Core.Commands.ICommand`1{`1})"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.SQueueHandler`1.InitializeStub">
+            <summary>Initializes a new instance of type SQueueHandler</summary>
+        </member>
+        <member name="M:Skewrl.Core.QueueHandlers.Moles.SQueueHandler`1.Sleep(System.TimeSpan)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.QueueHandlers.GenericQueueHandler`1.Sleep(System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Core.QueueHandlers.Moles.SQueueHandler`1.SleepTimeSpan">
+            <summary>Sets the stub of <see cref="M:Skewrl.Core.QueueHandlers.GenericQueueHandler`1.Sleep(System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.SQueueHandler`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.QueueHandlers.Moles.SQueueHandler`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.Logging.Moles.STraceHelper">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Logging.TraceHelper"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Logging.Moles.STraceHelper.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Logging.Moles.STraceHelper.InitializeStub">
+            <summary>Initializes a new instance of type STraceHelper</summary>
+        </member>
+        <member name="P:Skewrl.Core.Logging.Moles.STraceHelper.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.Logging.Moles.STraceHelper.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Model.Moles.SUrlMap">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Data.Model.UrlMap"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.SUrlMap.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.SUrlMap.InitializeStub">
+            <summary>Initializes a new instance of type SUrlMap</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.SUrlMap.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.SUrlMap.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.SUrlMapDataSource">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Data.UrlMapDataSource"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SUrlMapDataSource.#ctor(Skewrl.Core.Data.IRepository{Skewrl.Core.Data.Model.UrlMap},Skewrl.Core.Data.IRepository{Skewrl.Core.Data.Model.UrlSummary})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SUrlMapDataSource.InitializeStub">
+            <summary>Initializes a new instance of type SUrlMapDataSource</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.SUrlMapDataSource.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.SUrlMapDataSource.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.AzureStorage.Moles.SUrlRedirectMessage">
+            <summary>Stub type of <see cref="T:Skewrl.Core.AzureStorage.UrlRedirectMessage"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SUrlRedirectMessage.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.AzureStorage.Moles.SUrlRedirectMessage.InitializeStub">
+            <summary>Initializes a new instance of type SUrlRedirectMessage</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SUrlRedirectMessage.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.AzureStorage.Moles.SUrlRedirectMessage.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Model.Moles.SUrlSummary">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Data.Model.UrlSummary"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.SUrlSummary.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.SUrlSummary.InitializeStub">
+            <summary>Initializes a new instance of type SUrlSummary</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.SUrlSummary.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.SUrlSummary.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Moles.SUrlTrackerDataSource">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Data.UrlTrackerDataSource"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SUrlTrackerDataSource.#ctor(Skewrl.Core.Data.IRepository{Skewrl.Core.Data.Model.UrlVisited},Skewrl.Core.AzureStorage.IAzureQueue{Skewrl.Core.AzureStorage.UrlRedirectMessage},Skewrl.Core.Data.IRepository{Skewrl.Core.Data.Model.UrlSummary})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Moles.SUrlTrackerDataSource.InitializeStub">
+            <summary>Initializes a new instance of type SUrlTrackerDataSource</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.SUrlTrackerDataSource.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Moles.SUrlTrackerDataSource.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Core.Data.Model.Moles.SUrlVisited">
+            <summary>Stub type of <see cref="T:Skewrl.Core.Data.Model.UrlVisited"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.SUrlVisited.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Core.Data.Model.Moles.SUrlVisited.InitializeStub">
+            <summary>Initializes a new instance of type SUrlVisited</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.SUrlVisited.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Core.Data.Model.Moles.SUrlVisited.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

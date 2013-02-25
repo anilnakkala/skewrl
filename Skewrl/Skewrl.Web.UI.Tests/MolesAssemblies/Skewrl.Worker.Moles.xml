@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Skewrl.Worker.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Skewrl.Worker.Commands.Moles.MUrlRedirectTrackerCommand">
+            <summary>Mole type of <see cref="T:Skewrl.Worker.Commands.UrlRedirectTrackerCommand"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Commands.Moles.MUrlRedirectTrackerCommand.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Commands.Moles.MUrlRedirectTrackerCommand.#ctor(Skewrl.Worker.Commands.UrlRedirectTrackerCommand)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Commands.Moles.MUrlRedirectTrackerCommand.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Commands.Moles.MUrlRedirectTrackerCommand.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Commands.Moles.MUrlRedirectTrackerCommand.Bind(Skewrl.Core.Commands.ICommand{Skewrl.Core.AzureStorage.UrlRedirectMessage})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Worker.Commands.Moles.MUrlRedirectTrackerCommand.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Worker.Commands.Moles.MUrlRedirectTrackerCommand.ConstructorIUrlTrackerDataSource">
+            <summary>Sets the mole of <see cref="M:Skewrl.Worker.Commands.UrlRedirectTrackerCommand.#ctor(Skewrl.Core.Data.IUrlTrackerDataSource)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Worker.Commands.Moles.MUrlRedirectTrackerCommand.RunUrlRedirectMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Worker.Commands.UrlRedirectTrackerCommand.Run(Skewrl.Core.AzureStorage.UrlRedirectMessage)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Worker.Commands.Moles.MUrlRedirectTrackerCommand.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Worker.Commands.Moles.MUrlRedirectTrackerCommand.AllInstances.RunUrlRedirectMessage">
+            <summary>Sets the mole of <see cref="M:Skewrl.Worker.Commands.UrlRedirectTrackerCommand.Run(Skewrl.Core.AzureStorage.UrlRedirectMessage)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Worker.Moles.MWorkerRole">
+            <summary>Mole type of <see cref="T:Skewrl.Worker.WorkerRole"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Moles.MWorkerRole.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Moles.MWorkerRole.#ctor(Skewrl.Worker.WorkerRole)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Moles.MWorkerRole.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Moles.MWorkerRole.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Worker.Moles.MWorkerRole.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Worker.Moles.MWorkerRole.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Worker.WorkerRole.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Worker.Moles.MWorkerRole.OnStart">
+            <summary>Sets the mole of <see cref="M:Skewrl.Worker.WorkerRole.OnStart"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Worker.Moles.MWorkerRole.Run">
+            <summary>Sets the mole of <see cref="M:Skewrl.Worker.WorkerRole.Run"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Worker.Moles.MWorkerRole.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Worker.Moles.MWorkerRole.AllInstances.OnStart">
+            <summary>Sets the mole of <see cref="M:Skewrl.Worker.WorkerRole.OnStart"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Worker.Moles.MWorkerRole.AllInstances.Run">
+            <summary>Sets the mole of <see cref="M:Skewrl.Worker.WorkerRole.Run"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Worker.Commands.Moles.SUrlRedirectTrackerCommand">
+            <summary>Stub type of <see cref="T:Skewrl.Worker.Commands.UrlRedirectTrackerCommand"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Commands.Moles.SUrlRedirectTrackerCommand.#ctor(Skewrl.Core.Data.IUrlTrackerDataSource)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Commands.Moles.SUrlRedirectTrackerCommand.InitializeStub">
+            <summary>Initializes a new instance of type SUrlRedirectTrackerCommand</summary>
+        </member>
+        <member name="P:Skewrl.Worker.Commands.Moles.SUrlRedirectTrackerCommand.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Worker.Commands.Moles.SUrlRedirectTrackerCommand.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Worker.Moles.SWorkerRole">
+            <summary>Stub type of <see cref="T:Skewrl.Worker.WorkerRole"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Moles.SWorkerRole.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Moles.SWorkerRole.InitializeStub">
+            <summary>Initializes a new instance of type SWorkerRole</summary>
+        </member>
+        <member name="M:Skewrl.Worker.Moles.SWorkerRole.OnStart">
+            <summary>Sets the stub of <see cref="M:Skewrl.Worker.WorkerRole.OnStart"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Worker.Moles.SWorkerRole.OnStart01">
+            <summary>Sets the stub of <see cref="M:Skewrl.Worker.WorkerRole.OnStart"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Worker.Moles.SWorkerRole.OnStop">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStop"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Worker.Moles.SWorkerRole.OnStop01">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStop"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Worker.Moles.SWorkerRole.Run">
+            <summary>Sets the stub of <see cref="M:Skewrl.Worker.WorkerRole.Run"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Worker.Moles.SWorkerRole.Run01">
+            <summary>Sets the stub of <see cref="M:Skewrl.Worker.WorkerRole.Run"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Worker.Moles.SWorkerRole.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Worker.Moles.SWorkerRole.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

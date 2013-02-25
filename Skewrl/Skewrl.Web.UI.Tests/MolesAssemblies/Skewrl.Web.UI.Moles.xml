@@ -1,0 +1,2822 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Skewrl.Web.UI.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Skewrl.Web.UI.Controllers.Moles.MAccountController">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Controllers.AccountController"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.#ctor(Skewrl.Web.UI.Controllers.AccountController)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MAccountController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.DisassociateStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Disassociate(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.ErrorCodeToStringMembershipCreateStatus">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.ErrorCodeToString(System.Web.Security.MembershipCreateStatus)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.ExternalLoginCallbackString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.ExternalLoginCallback(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.ExternalLoginConfirmationRegisterExternalLoginModelString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.ExternalLoginConfirmation(Skewrl.Web.UI.Models.RegisterExternalLoginModel,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.ExternalLoginFailure">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.ExternalLoginFailure"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.ExternalLoginStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.ExternalLogin(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.ExternalLoginsListString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.ExternalLoginsList(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.LogOff">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.LogOff"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.LoginLoginModelString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Login(Skewrl.Web.UI.Models.LoginModel,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.LoginString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Login(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.ManageLocalPasswordModel">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Manage(Skewrl.Web.UI.Models.LocalPasswordModel)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.ManageNullableOfAccountControllerManageMessageId">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Manage(System.Nullable`1{Skewrl.Web.UI.Controllers.AccountController.ManageMessageId})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.RedirectToLocalString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.RedirectToLocal(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.Register">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Register"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.RegisterRegisterModel">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Register(Skewrl.Web.UI.Models.RegisterModel)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.RemoveExternalLogins">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.RemoveExternalLogins"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.DisassociateStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Disassociate(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.ExternalLoginCallbackString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.ExternalLoginCallback(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.ExternalLoginConfirmationRegisterExternalLoginModelString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.ExternalLoginConfirmation(Skewrl.Web.UI.Models.RegisterExternalLoginModel,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.ExternalLoginFailure">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.ExternalLoginFailure"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.ExternalLoginStringString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.ExternalLogin(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.ExternalLoginsListString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.ExternalLoginsList(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.LogOff">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.LogOff"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.LoginLoginModelString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Login(Skewrl.Web.UI.Models.LoginModel,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.LoginString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Login(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.ManageLocalPasswordModel">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Manage(Skewrl.Web.UI.Models.LocalPasswordModel)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.ManageNullableOfAccountControllerManageMessageId">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Manage(System.Nullable`1{Skewrl.Web.UI.Controllers.AccountController.ManageMessageId})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.RedirectToLocalString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.RedirectToLocal(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.Register">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Register"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.RegisterRegisterModel">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.Register(Skewrl.Web.UI.Models.RegisterModel)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MAccountController.AllInstances.RemoveExternalLogins">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.AccountController.RemoveExternalLogins"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MAuthConfig">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.AuthConfig"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MAuthConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MAuthConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MAuthConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MAuthConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MAuthConfig.RegisterAuth">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.AuthConfig.RegisterAuth"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MBundleConfig">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.BundleConfig"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MBundleConfig.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MBundleConfig.#ctor(Skewrl.Web.UI.BundleConfig)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MBundleConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MBundleConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MBundleConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MBundleConfig.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.BundleConfig.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MBundleConfig.RegisterBundlesBundleCollection">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MBundleConfig.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Controllers.Moles.MChartController">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Controllers.ChartController"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.#ctor(Skewrl.Web.UI.Controllers.ChartController)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MChartController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MChartController.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MChartController.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.ChartController.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MChartController.IndexStringInt32">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.ChartController.Index(System.String,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MChartController.TimelineString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.ChartController.Timeline(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Controllers.Moles.MChartController.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MChartController.AllInstances.IndexStringInt32">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.ChartController.Index(System.String,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MChartController.AllInstances.TimelineString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.ChartController.Timeline(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MExternalLogin">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Models.ExternalLogin"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MExternalLogin.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MExternalLogin.#ctor(Skewrl.Web.UI.Models.ExternalLogin)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MExternalLogin.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MExternalLogin.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.ExternalLogin.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.ProviderDisplayNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.ProviderDisplayName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.ProviderDisplayNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.ProviderDisplayName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.ProviderGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.Provider"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.ProviderSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.Provider"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.ProviderUserIdGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.ProviderUserId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.ProviderUserIdSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.ProviderUserId"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MExternalLogin.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.AllInstances.ProviderDisplayNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.ProviderDisplayName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.AllInstances.ProviderDisplayNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.ProviderDisplayName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.AllInstances.ProviderGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.Provider"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.AllInstances.ProviderSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.Provider"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.AllInstances.ProviderUserIdGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.ProviderUserId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MExternalLogin.AllInstances.ProviderUserIdSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.ExternalLogin.ProviderUserId"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MFilterConfig">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.FilterConfig"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MFilterConfig.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MFilterConfig.#ctor(Skewrl.Web.UI.FilterConfig)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MFilterConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MFilterConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MFilterConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MFilterConfig.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.FilterConfig.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MFilterConfig.RegisterGlobalFiltersGlobalFilterCollection">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MFilterConfig.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Controllers.Moles.MHomeController">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Controllers.HomeController"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.#ctor(Skewrl.Web.UI.Controllers.HomeController)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.MHomeController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.About">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.About"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.AnalyticsString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.Analytics(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.Contact">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.Contact"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.DeleteUrlString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.DeleteUrl(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.GenerateString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.Generate(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.Index">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.Index"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.MyUrls">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.MyUrls"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.MyUrlsJson">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.MyUrlsJson"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.QRImageString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.QRImage(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.UpdateUrlStringBoolean">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.UpdateUrl(System.String,System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Controllers.Moles.MHomeController.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.AllInstances.About">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.About"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.AllInstances.AnalyticsString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.Analytics(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.AllInstances.Contact">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.Contact"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.AllInstances.DeleteUrlString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.DeleteUrl(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.AllInstances.GenerateString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.Generate(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.AllInstances.Index">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.Index"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.AllInstances.MyUrls">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.MyUrls"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.AllInstances.MyUrlsJson">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.MyUrlsJson"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.AllInstances.QRImageString">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.QRImage(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.MHomeController.AllInstances.UpdateUrlStringBoolean">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Controllers.HomeController.UpdateUrl(System.String,System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Filters.InitializeSimpleMembershipAttribute"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.#ctor(Skewrl.Web.UI.Filters.InitializeSimpleMembershipAttribute)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.Bind(System.Web.Mvc.IMvcFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Filters.InitializeSimpleMembershipAttribute.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.OnActionExecutingActionExecutingContext">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Filters.InitializeSimpleMembershipAttribute.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Filters.Moles.MInitializeSimpleMembershipAttribute.AllInstances.OnActionExecutingActionExecutingContext">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Filters.InitializeSimpleMembershipAttribute.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Filters.JsonResultFilterAttribute"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.#ctor(Skewrl.Web.UI.Filters.JsonResultFilterAttribute)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.Bind(System.Web.Mvc.IMvcFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Filters.JsonResultFilterAttribute.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.OnActionExecutingActionExecutingContext">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Filters.JsonResultFilterAttribute.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Filters.Moles.MJsonResultFilterAttribute.AllInstances.OnActionExecutingActionExecutingContext">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Filters.JsonResultFilterAttribute.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Models.LocalPasswordModel"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.#ctor(Skewrl.Web.UI.Models.LocalPasswordModel)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.ConfirmPasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.ConfirmPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.ConfirmPasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.ConfirmPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.LocalPasswordModel.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.NewPasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.NewPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.NewPasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.NewPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.OldPasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.OldPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.OldPasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.OldPassword"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.AllInstances.ConfirmPasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.ConfirmPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.AllInstances.ConfirmPasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.ConfirmPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.AllInstances.NewPasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.NewPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.AllInstances.NewPasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.NewPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.AllInstances.OldPasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.OldPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLocalPasswordModel.AllInstances.OldPasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LocalPasswordModel.OldPassword"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MLoginModel">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Models.LoginModel"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MLoginModel.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MLoginModel.#ctor(Skewrl.Web.UI.Models.LoginModel)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MLoginModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MLoginModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.LoginModel.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.PasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.Password"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.PasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.Password"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.RememberMeGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.RememberMe"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.RememberMeSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.RememberMe"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.UserNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.UserName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.UserNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.UserName"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MLoginModel.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.AllInstances.PasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.Password"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.AllInstances.PasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.Password"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.AllInstances.RememberMeGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.RememberMe"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.AllInstances.RememberMeSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.RememberMe"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.AllInstances.UserNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.UserName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MLoginModel.AllInstances.UserNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.LoginModel.UserName"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MMvcApplication">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.MvcApplication"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MMvcApplication.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MMvcApplication.#ctor(Skewrl.Web.UI.MvcApplication)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MMvcApplication.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MMvcApplication.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MMvcApplication.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MMvcApplication.Bind(System.Web.IHttpAsyncHandler)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MMvcApplication.Bind(System.Web.IHttpHandler)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MMvcApplication.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MMvcApplication.Application_Start">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.MvcApplication.Application_Start"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MMvcApplication.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MMvcApplication.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.MvcApplication.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MMvcApplication.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MMvcApplication.AllInstances.Application_Start">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.MvcApplication.Application_Start"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Models.RegisterExternalLoginModel"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.#ctor(Skewrl.Web.UI.Models.RegisterExternalLoginModel)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.RegisterExternalLoginModel.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.ExternalLoginDataGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterExternalLoginModel.ExternalLoginData"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.ExternalLoginDataSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterExternalLoginModel.ExternalLoginData"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.UserNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterExternalLoginModel.UserName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.UserNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterExternalLoginModel.UserName"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.AllInstances.ExternalLoginDataGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterExternalLoginModel.ExternalLoginData"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.AllInstances.ExternalLoginDataSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterExternalLoginModel.ExternalLoginData"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.AllInstances.UserNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterExternalLoginModel.UserName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterExternalLoginModel.AllInstances.UserNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterExternalLoginModel.UserName"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MRegisterModel">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Models.RegisterModel"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MRegisterModel.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MRegisterModel.#ctor(Skewrl.Web.UI.Models.RegisterModel)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MRegisterModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MRegisterModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.ConfirmPasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.ConfirmPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.ConfirmPasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.ConfirmPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.RegisterModel.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.PasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.Password"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.PasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.Password"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.UserNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.UserName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.UserNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.UserName"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MRegisterModel.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.AllInstances.ConfirmPasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.ConfirmPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.AllInstances.ConfirmPasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.ConfirmPassword"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.AllInstances.PasswordGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.Password"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.AllInstances.PasswordSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.Password"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.AllInstances.UserNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.UserName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MRegisterModel.AllInstances.UserNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.RegisterModel.UserName"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MRouteConfig">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.RouteConfig"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MRouteConfig.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MRouteConfig.#ctor(Skewrl.Web.UI.RouteConfig)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MRouteConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MRouteConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MRouteConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MRouteConfig.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.RouteConfig.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MRouteConfig.RegisterRoutesRouteCollection">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MRouteConfig.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUrlItem">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Models.UrlItem"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlItem.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlItem.#ctor(Skewrl.Web.UI.Models.UrlItem)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlItem.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlItem.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.ClicksGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.ClicksSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.UrlItem.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.CreatedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.Created"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.CreatedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.Created"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.FromListOfUrlMap">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.UrlItem.From(System.Collections.Generic.List`1{Skewrl.Core.Data.Model.UrlMap})"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.IsActiveGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.IsActiveSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.LongUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.LongUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.LongUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.LongUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.ShortUrlCodeGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.ShortUrlCodeSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.ShortUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.ShortUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.ClicksGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.ClicksSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.CreatedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.Created"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.CreatedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.Created"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.IsActiveGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.IsActiveSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.LongUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.LongUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.LongUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.LongUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.ShortUrlCodeGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.ShortUrlCodeSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.ShortUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlItem.AllInstances.ShortUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlItem.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUrlListResponse">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Models.UrlListResponse"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlListResponse.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlListResponse.#ctor(Skewrl.Web.UI.Models.UrlListResponse)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlListResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlListResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.UrlListResponse.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.LengthGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Length"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.LengthSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Length"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.MessageGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Message"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.MessageSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Message"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.SuccessGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Success"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.SuccessSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Success"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.UrlsGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Urls"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.UrlsSetListOfUrlItem">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Urls"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUrlListResponse.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.AllInstances.LengthGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Length"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.AllInstances.LengthSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Length"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.AllInstances.MessageGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Message"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.AllInstances.MessageSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Message"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.AllInstances.SuccessGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Success"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.AllInstances.SuccessSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Success"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.AllInstances.UrlsGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Urls"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlListResponse.AllInstances.UrlsSetListOfUrlItem">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlListResponse.Urls"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUrlModel">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Models.UrlModel"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlModel.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlModel.#ctor(Skewrl.Web.UI.Models.UrlModel)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.ClicksGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.ClicksSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.UrlModel.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.DateCreatedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.DateCreated"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.DateCreatedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.DateCreated"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.FromUrlMap">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.UrlModel.From(Skewrl.Core.Data.Model.UrlMap)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.IsActiveGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.IsActiveSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.OriginalUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.OriginalUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.OriginalUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.OriginalUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.ShortUrlCodeGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.ShortUrlCodeSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.ShortUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.ShortUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.ClicksGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.ClicksSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.Clicks"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.DateCreatedGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.DateCreated"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.DateCreatedSetDateTime">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.DateCreated"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.IsActiveGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.IsActiveSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.IsActive"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.OriginalUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.OriginalUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.OriginalUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.OriginalUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.ShortUrlCodeGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.ShortUrlCodeSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.ShortUrlCode"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.ShortUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlModel.AllInstances.ShortUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlModel.ShortUrl"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Models.UrlShortenResponse"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.#ctor(Skewrl.Web.UI.Models.UrlShortenResponse)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.UrlShortenResponse.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.MessageGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Message"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.MessageSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Message"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.QRCodeUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.QRCodeUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.QRCodeUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.QRCodeUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.SuccessGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Success"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.SuccessSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Success"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.UrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Url"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.UrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Url"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.AllInstances.MessageGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Message"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.AllInstances.MessageSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Message"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.AllInstances.QRCodeUrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.QRCodeUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.AllInstances.QRCodeUrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.QRCodeUrl"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.AllInstances.SuccessGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Success"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.AllInstances.SuccessSetBoolean">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Success"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.AllInstances.UrlGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Url"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUrlShortenResponse.AllInstances.UrlSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UrlShortenResponse.Url"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUserProfile">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Models.UserProfile"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUserProfile.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUserProfile.#ctor(Skewrl.Web.UI.Models.UserProfile)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUserProfile.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUserProfile.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUserProfile.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUserProfile.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.UserProfile.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUserProfile.UserIdGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UserProfile.UserId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUserProfile.UserIdSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UserProfile.UserId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUserProfile.UserNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UserProfile.UserName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUserProfile.UserNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UserProfile.UserName"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUserProfile.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUserProfile.AllInstances.UserIdGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UserProfile.UserId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUserProfile.AllInstances.UserIdSetInt32">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UserProfile.UserId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUserProfile.AllInstances.UserNameGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UserProfile.UserName"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUserProfile.AllInstances.UserNameSetString">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UserProfile.UserName"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUsersContext">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.Models.UsersContext"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUsersContext.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUsersContext.#ctor(Skewrl.Web.UI.Models.UsersContext)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUsersContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUsersContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUsersContext.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.MUsersContext.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUsersContext.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUsersContext.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.Models.UsersContext.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUsersContext.UserProfilesGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UsersContext.UserProfiles"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUsersContext.UserProfilesSetDbSetOfUserProfile">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UsersContext.UserProfiles"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.MUsersContext.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUsersContext.AllInstances.UserProfilesGet">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UsersContext.UserProfiles"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.MUsersContext.AllInstances.UserProfilesSetDbSetOfUserProfile">
+            <summary>Sets the mole of <see cref="P:Skewrl.Web.UI.Models.UsersContext.UserProfiles"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MWebApiConfig">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.WebApiConfig"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MWebApiConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MWebApiConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MWebApiConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MWebApiConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MWebApiConfig.RegisterHttpConfiguration">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.WebApiConfig.Register(System.Web.Http.HttpConfiguration)"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MWebRole">
+            <summary>Mole type of <see cref="T:Skewrl.Web.UI.WebRole"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MWebRole.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MWebRole.#ctor(Skewrl.Web.UI.WebRole)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MWebRole.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.MWebRole.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MWebRole.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MWebRole.Constructor">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.WebRole.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MWebRole.OnStart">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.WebRole.OnStart"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.MWebRole.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.MWebRole.AllInstances.OnStart">
+            <summary>Sets the mole of <see cref="M:Skewrl.Web.UI.WebRole.OnStart"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Controllers.Moles.SAccountController">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Controllers.AccountController"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecuteCore(System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecuteCore(System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.Content(System.String,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Content(System.String,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.ContentStringStringEncoding">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Content(System.String,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.CreateActionInvoker">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateActionInvoker"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.CreateActionInvoker01">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateActionInvoker"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.CreateTempDataProvider">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateTempDataProvider"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.CreateTempDataProvider01">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateTempDataProvider"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.DisableAsyncSupportGet">
+            <summary>Sets the stub of <see cref="P:System.Web.Mvc.Controller.DisableAsyncSupport"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.Dispose(System.Boolean)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.DisposeBoolean">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecute(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecuteCore(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecuteCore(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecute(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.ExecuteCore">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.ExecuteCore"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.ExecuteCore01">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.ExecuteCore"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.ExecuteRequestContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.Byte[],System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.IO.Stream,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.FileByteArrayStringString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.Byte[],System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.FileStreamStringString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.IO.Stream,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.FileStringStringString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HandleUnknownAction(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.HandleUnknownActionString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HandleUnknownAction(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.HttpNotFound(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HttpNotFound(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.HttpNotFoundString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HttpNotFound(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Initialize(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.InitializeRequestContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Initialize(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.InitializeStub">
+            <summary>Initializes a new instance of type SAccountController</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.JavaScript(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.JavaScript(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.JavaScriptString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.JavaScript(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.Json(System.Object,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.JsonObjectStringEncoding">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.JsonObjectStringEncodingJsonRequestBehavior">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnAuthorization(System.Web.Mvc.AuthorizationContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnAuthorization(System.Web.Mvc.AuthorizationContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnException(System.Web.Mvc.ExceptionContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnExceptionExceptionContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnException(System.Web.Mvc.ExceptionContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.PartialView(System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.PartialViewStringObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.PartialView(System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.Redirect(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Redirect(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectPermanent(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.RedirectPermanentString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectPermanent(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.RedirectString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Redirect(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.Web.Mvc.IView,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SAccountController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.String,System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.ViewIViewObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.Web.Mvc.IView,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SAccountController.ViewStringStringObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.String,System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.SAccountController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.SAccountController.DisableAsyncSupport">
+            <summary>Sets the stub of <see cref="P:System.Web.Mvc.Controller.DisableAsyncSupport"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.SAccountController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.SBundleConfig">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.BundleConfig"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SBundleConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SBundleConfig.InitializeStub">
+            <summary>Initializes a new instance of type SBundleConfig</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.SBundleConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.SBundleConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Controllers.Moles.SChartController">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Controllers.ChartController"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecuteCore(System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecuteCore(System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.Content(System.String,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Content(System.String,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.ContentStringStringEncoding">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Content(System.String,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.CreateActionInvoker">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateActionInvoker"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.CreateActionInvoker01">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateActionInvoker"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.CreateTempDataProvider">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateTempDataProvider"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.CreateTempDataProvider01">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateTempDataProvider"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.DisableAsyncSupportGet">
+            <summary>Sets the stub of <see cref="P:System.Web.Mvc.Controller.DisableAsyncSupport"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.Dispose(System.Boolean)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.DisposeBoolean">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecute(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecuteCore(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecuteCore(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecute(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.ExecuteCore">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.ExecuteCore"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.ExecuteCore01">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.ExecuteCore"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.ExecuteRequestContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.Byte[],System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.IO.Stream,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.FileByteArrayStringString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.Byte[],System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.FileStreamStringString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.IO.Stream,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.FileStringStringString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HandleUnknownAction(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.HandleUnknownActionString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HandleUnknownAction(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.HttpNotFound(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HttpNotFound(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.HttpNotFoundString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HttpNotFound(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Initialize(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.InitializeRequestContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Initialize(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.InitializeStub">
+            <summary>Initializes a new instance of type SChartController</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.JavaScript(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.JavaScript(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.JavaScriptString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.JavaScript(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.Json(System.Object,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.JsonObjectStringEncoding">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.JsonObjectStringEncodingJsonRequestBehavior">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnAuthorization(System.Web.Mvc.AuthorizationContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnAuthorization(System.Web.Mvc.AuthorizationContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnException(System.Web.Mvc.ExceptionContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.OnExceptionExceptionContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnException(System.Web.Mvc.ExceptionContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.PartialView(System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.PartialViewStringObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.PartialView(System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.Redirect(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Redirect(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectPermanent(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.RedirectPermanentString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectPermanent(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.RedirectString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Redirect(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.Web.Mvc.IView,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SChartController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.String,System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.ViewIViewObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.Web.Mvc.IView,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SChartController.ViewStringStringObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.String,System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.SChartController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.SChartController.DisableAsyncSupport">
+            <summary>Sets the stub of <see cref="P:System.Web.Mvc.Controller.DisableAsyncSupport"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.SChartController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.SExternalLogin">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Models.ExternalLogin"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SExternalLogin.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SExternalLogin.InitializeStub">
+            <summary>Initializes a new instance of type SExternalLogin</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SExternalLogin.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SExternalLogin.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.SFilterConfig">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.FilterConfig"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SFilterConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SFilterConfig.InitializeStub">
+            <summary>Initializes a new instance of type SFilterConfig</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.SFilterConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.SFilterConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Controllers.Moles.SHomeController">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Controllers.HomeController"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecuteCore(System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecuteCore(System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.Content(System.String,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Content(System.String,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.ContentStringStringEncoding">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Content(System.String,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.CreateActionInvoker">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateActionInvoker"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.CreateActionInvoker01">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateActionInvoker"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.CreateTempDataProvider">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateTempDataProvider"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.CreateTempDataProvider01">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.CreateTempDataProvider"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.DisableAsyncSupportGet">
+            <summary>Sets the stub of <see cref="P:System.Web.Mvc.Controller.DisableAsyncSupport"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.Dispose(System.Boolean)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.DisposeBoolean">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Dispose(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecute(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecuteCore(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecuteCore(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.EndExecute(System.IAsyncResult)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.ExecuteCore">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.ExecuteCore"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.ExecuteCore01">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.ExecuteCore"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.ExecuteRequestContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ControllerBase.Execute(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.Byte[],System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.IO.Stream,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.FileByteArrayStringString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.Byte[],System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.FileStreamStringString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.IO.Stream,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.FileStringStringString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.File(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HandleUnknownAction(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.HandleUnknownActionString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HandleUnknownAction(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.HttpNotFound(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HttpNotFound(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.HttpNotFoundString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.HttpNotFound(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Initialize(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.InitializeRequestContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Initialize(System.Web.Routing.RequestContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.InitializeStub">
+            <summary>Initializes a new instance of type SHomeController</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.JavaScript(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.JavaScript(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.JavaScriptString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.JavaScript(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.Json(System.Object,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.JsonObjectStringEncoding">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.JsonObjectStringEncodingJsonRequestBehavior">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnAuthorization(System.Web.Mvc.AuthorizationContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnAuthorization(System.Web.Mvc.AuthorizationContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnException(System.Web.Mvc.ExceptionContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnExceptionExceptionContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnException(System.Web.Mvc.ExceptionContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.PartialView(System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.PartialViewStringObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.PartialView(System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.Redirect(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Redirect(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectPermanent(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.RedirectPermanentString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectPermanent(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.RedirectString">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.Redirect(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.Web.Mvc.IView,System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Controllers.Moles.SHomeController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.String,System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.ViewIViewObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.Web.Mvc.IView,System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Controllers.Moles.SHomeController.ViewStringStringObject">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.Controller.View(System.String,System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.SHomeController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.SHomeController.DisableAsyncSupport">
+            <summary>Sets the stub of <see cref="P:System.Web.Mvc.Controller.DisableAsyncSupport"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Controllers.Moles.SHomeController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Filters.JsonResultFilterAttribute"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.Equals(System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Attribute.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.EqualsObject">
+            <summary>Sets the stub of <see cref="M:System.Attribute.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.GetHashCode">
+            <summary>Sets the stub of <see cref="M:System.Attribute.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.GetHashCode01">
+            <summary>Sets the stub of <see cref="M:System.Attribute.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.InitializeStub">
+            <summary>Initializes a new instance of type SJsonResultFilterAttribute</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.IsDefaultAttribute">
+            <summary>Sets the stub of <see cref="M:System.Attribute.IsDefaultAttribute"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.IsDefaultAttribute01">
+            <summary>Sets the stub of <see cref="M:System.Attribute.IsDefaultAttribute"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.Match(System.Object)">
+            <summary>Sets the stub of <see cref="M:System.Attribute.Match(System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.MatchObject">
+            <summary>Sets the stub of <see cref="M:System.Attribute.Match(System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ActionFilterAttribute.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ActionFilterAttribute.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of <see cref="M:Skewrl.Web.UI.Filters.JsonResultFilterAttribute.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of <see cref="M:Skewrl.Web.UI.Filters.JsonResultFilterAttribute.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ActionFilterAttribute.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ActionFilterAttribute.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ActionFilterAttribute.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of <see cref="M:System.Web.Mvc.ActionFilterAttribute.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.TypeIdGet">
+            <summary>Sets the stub of <see cref="P:System.Attribute.TypeId"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Filters.Moles.SJsonResultFilterAttribute.TypeId">
+            <summary>Sets the stub of <see cref="P:System.Attribute.TypeId"/>
+            </summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.SLocalPasswordModel">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Models.LocalPasswordModel"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SLocalPasswordModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SLocalPasswordModel.InitializeStub">
+            <summary>Initializes a new instance of type SLocalPasswordModel</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SLocalPasswordModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SLocalPasswordModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.SLoginModel">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Models.LoginModel"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SLoginModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SLoginModel.InitializeStub">
+            <summary>Initializes a new instance of type SLoginModel</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SLoginModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SLoginModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.SMvcApplication">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.MvcApplication"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SMvcApplication.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SMvcApplication.InitializeStub">
+            <summary>Initializes a new instance of type SMvcApplication</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.SMvcApplication.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.SMvcApplication.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.SRegisterExternalLoginModel">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Models.RegisterExternalLoginModel"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SRegisterExternalLoginModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SRegisterExternalLoginModel.InitializeStub">
+            <summary>Initializes a new instance of type SRegisterExternalLoginModel</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SRegisterExternalLoginModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SRegisterExternalLoginModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.SRegisterModel">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Models.RegisterModel"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SRegisterModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SRegisterModel.InitializeStub">
+            <summary>Initializes a new instance of type SRegisterModel</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SRegisterModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SRegisterModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.SRouteConfig">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.RouteConfig"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SRouteConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SRouteConfig.InitializeStub">
+            <summary>Initializes a new instance of type SRouteConfig</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.SRouteConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.SRouteConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.SUrlItem">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Models.UrlItem"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUrlItem.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUrlItem.InitializeStub">
+            <summary>Initializes a new instance of type SUrlItem</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUrlItem.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUrlItem.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.SUrlListResponse">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Models.UrlListResponse"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUrlListResponse.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUrlListResponse.InitializeStub">
+            <summary>Initializes a new instance of type SUrlListResponse</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUrlListResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUrlListResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.SUrlModel">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Models.UrlModel"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUrlModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUrlModel.InitializeStub">
+            <summary>Initializes a new instance of type SUrlModel</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUrlModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUrlModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.SUrlShortenResponse">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Models.UrlShortenResponse"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUrlShortenResponse.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUrlShortenResponse.InitializeStub">
+            <summary>Initializes a new instance of type SUrlShortenResponse</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUrlShortenResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUrlShortenResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.SUserProfile">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Models.UserProfile"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUserProfile.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUserProfile.InitializeStub">
+            <summary>Initializes a new instance of type SUserProfile</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUserProfile.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUserProfile.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Models.Moles.SUsersContext">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.Models.UsersContext"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUsersContext.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Models.Moles.SUsersContext.InitializeStub">
+            <summary>Initializes a new instance of type SUsersContext</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUsersContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Models.Moles.SUsersContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Skewrl.Web.UI.Moles.SWebRole">
+            <summary>Stub type of <see cref="T:Skewrl.Web.UI.WebRole"/>
+            .</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SWebRole.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SWebRole.InitializeStub">
+            <summary>Initializes a new instance of type SWebRole</summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SWebRole.OnStart">
+            <summary>Sets the stub of <see cref="M:Skewrl.Web.UI.WebRole.OnStart"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Moles.SWebRole.OnStart01">
+            <summary>Sets the stub of <see cref="M:Skewrl.Web.UI.WebRole.OnStart"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SWebRole.OnStop">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStop"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Moles.SWebRole.OnStop01">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.OnStop"/>
+            </summary>
+        </member>
+        <member name="M:Skewrl.Web.UI.Moles.SWebRole.Run">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.Run"/>
+            </summary>
+        </member>
+        <member name="F:Skewrl.Web.UI.Moles.SWebRole.Run01">
+            <summary>Sets the stub of <see cref="M:Microsoft.WindowsAzure.ServiceRuntime.RoleEntryPoint.Run"/>
+            </summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.SWebRole.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Skewrl.Web.UI.Moles.SWebRole.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

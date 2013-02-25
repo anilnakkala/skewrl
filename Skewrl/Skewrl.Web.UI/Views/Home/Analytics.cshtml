@@ -1,0 +1,47 @@
+﻿@using Skewrl.Web.UI.Models;
+
+@model UrlModel
+
+@{
+    ViewBag.Title = "Skewrl Analytics";
+}
+
+<h2>Skewrl url analytics</h2>
+
+<div id="urlHead">
+<div id="urlDiv" class="float-left">
+<span>Short URL:</span>
+<h3>@Model.ShortUrl</h3>
+<br />
+<p>Long URL:</p>
+<h4>@Model.OriginalUrl</h4>
+<p>Created on : @Model.DateCreated.ToShortDateString()</p>
+</div>
+
+<div class="float-left">
+<img src='@String.Format("/Home/QRImage/{0}.qr",@Model.ShortUrlCode)' width="150" height="150" alt="QR code for shortened URL" />
+</div>
+
+<div class="clear-fix"></div>
+</div>
+<br />
+
+<div class="chart-container geo-chart">
+@Html.Partial("~/Views/Chart/Geo.cshtml", @Model)
+</div>
+
+<div class="chart-container def-chart float-left">
+@Html.Partial("~/Views/Chart/ClicksTimeline.cshtml", @Model)
+</div>
+
+<div class="chart-container def-chart float-left">
+@Html.Partial("~/Views/Chart/RefererChart.cshtml", @Model)
+</div>
+
+<div class="chart-container def-chart float-left">
+@Html.Partial("~/Views/Chart/Browsers.cshtml", @Model)
+</div>
+
+<div class="chart-container def-chart float-left">
+@Html.Partial("~/Views/Chart/Platforms.cshtml", @Model)
+</div>

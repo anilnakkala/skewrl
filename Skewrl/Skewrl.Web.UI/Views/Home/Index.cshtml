@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+@section scripts{
+    <script type="text/javascript">
+        $("#frmUrlGen").submit(function () {
+            $('#formStatus').hide();
+            $('#form-error').hide();
+
+            $.ajax({
+                type: 'POST',
+                dataType: 'json',
+                url: this.action,
+                data: $(this).serialize(),
+                success: function (data) {
+                    $('#shorturl').text(data.Url);
+                    $('#qrcodeimg').attr("src", data.QRCodeUrl);
+                    $('#formStatus').show();
+                },
+                error: function (data) {
+                    $('#form-error').text(data.url);
+                    $('#form-error').show();
+                }
+            });
+
+            return false;
+        });
+    </script>
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                
+                <h2>@ViewBag.Message</h2>
+                @using (Html.BeginForm("Generate", "Home", FormMethod.Post, new { id = "frmUrlGen" }))
+                {
+                    <div id="url-gen-wrapper">
+                        <h3>Enter your long URL: </h3>
+                        <input type="text" name="longurl" placeholder="Enter a long URL..." />
+                        <input type="submit" id="btnSubmit" value="Shorten URL" />                        
+                    </div>
+                    <h5 id="form-error">
+                    
+                    </h5>
+                }
+                                  
+            </hgroup>
+        </div>
+    </section>
+}
+<div id="formStatus" style="display: none;">
+    <div class="float-left">
+        <h4>Here is your shortened URL</h4>
+        <h2> <span id="shorturl"></span></h2>
+    </div>
+    <div class="float-right">
+        <img id="qrcodeimg" width="150" height="150" alt="QR code for shortened URL" />
+    </div>
+    <div class="clear-fix">
+    </div>
+<h3>
+    Now that you have created your URL, We suggest the following:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>
+            Share</h5>
+        Share your link in your Social network(s) <a href="http://go.microsoft.com/fwlink/?LinkId=245151">Go…</a> </li>
+    <li class="two">
+        <h5>
+            Analytics</h5>
+        Learn more about all the analytics for your links <a href="http://go.microsoft.com/fwlink/?LinkId=245153">
+            Go…</a> </li>
+    <li class="three">
+        <h5>
+            API</h5>
+        If you are a developer and interested in integrating your applications, visit our Dev center <a href="http://go.microsoft.com/fwlink/?LinkId=245157">
+            Go…</a> </li>
+</ol>
+
+</div>

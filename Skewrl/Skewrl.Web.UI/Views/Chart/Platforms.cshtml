@@ -1,0 +1,45 @@
+﻿@model Skewrl.Web.UI.Models.UrlModel
+
+<div id="plat_div">
+<img src='/Images/ajax-loader.gif' alt="Loading, please wait..."/>
+</div>
+
+<!--Load the AJAX API-->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1.0', { 'packages': ['corechart'] });
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart1);
+
+    function drawChart1() {
+        //$('#clicks_div_loading').show();
+        $.post('/Chart', { id: '@Model.ShortUrlCode', type:3 },
+            function (data) {
+                var tdata = new google.visualization.DataTable();
+
+                tdata.addColumn('string', 'Platform');
+                tdata.addColumn('number', 'Clicks');
+
+                for (var i = 0; i < data.length; i++) {
+                    tdata.addRow([data[i].Name, data[i].Value]);
+                }
+
+                var barchart = new google.visualization.BarChart(document.getElementById('plat_div'));
+                barchart.draw(tdata,
+                     { 
+                        title: "Platforms",
+                        width: 400, height: 350,
+                        legend: {position: 'none'},
+                        titleTextStyle: { color: '#999999', fontSize: 22 },
+                        colors: ['#66cccc']
+                     }
+                ); 
+            })
+            .success(function () { /*Some placeholder*/ })
+            .error(function () { /*Some placeholder*/ })
+            .complete(function () { /*Some placeholder*/ });
+    }
+</script>

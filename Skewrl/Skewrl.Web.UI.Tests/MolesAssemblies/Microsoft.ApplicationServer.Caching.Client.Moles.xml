@@ -1,0 +1,2062 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.ApplicationServer.Caching.Client.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.#ctor(Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.ConstructorCacheOperationType">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs.#ctor(Microsoft.ApplicationServer.Caching.CacheOperationType)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.ExceptionObjectGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs.ExceptionObject"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.ExceptionObjectSetException">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs.ExceptionObject"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.HasSucceededGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs.HasSucceeded"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.OperationContextGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs.OperationContext"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.OperationTypeGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs.OperationType"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.AllInstances.ExceptionObjectGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs.ExceptionObject"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.AllInstances.ExceptionObjectSetException">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs.ExceptionObject"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.AllInstances.HasSucceededGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs.HasSucceeded"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.AllInstances.OperationContextGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs.OperationContext"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationCompletedEventArgs.AllInstances.OperationTypeGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs.OperationType"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationContext">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.CacheOperationContext"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationContext.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationContext.#ctor(Microsoft.ApplicationServer.Caching.CacheOperationContext)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationContext.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationContext.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.CacheOperationContext.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationContext.GetUnique">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.CacheOperationContext.GetUnique"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationContext.PropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationContext.Properties"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationContext.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationContext.AllInstances.PropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationContext.Properties"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.#ctor(Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.ConstructorObjectCacheOperationType">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs.#ctor(System.Object,Microsoft.ApplicationServer.Caching.CacheOperationType)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.FromCompletedEventArgsCacheOperationCompletedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs.FromCompletedEventArgs(Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.OperationContextGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs.OperationContext"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.OperationTypeGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs.OperationType"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.AllInstances.OperationContextGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs.OperationContext"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MCacheOperationStartedEventArgs.AllInstances.OperationTypeGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs.OperationType"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCache">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCache"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCache.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCache.#ctor(Microsoft.ApplicationServer.Caching.DataCache)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCache.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCache.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddCacheLevelBulkCallbackDataCacheBulkNotificationCallback">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddCacheLevelBulkCallback(Microsoft.ApplicationServer.Caching.DataCacheBulkNotificationCallback)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddCacheLevelCallbackDataCacheOperationsDataCacheNotificationCallback">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddCacheLevelCallback(Microsoft.ApplicationServer.Caching.DataCacheOperations,Microsoft.ApplicationServer.Caching.DataCacheNotificationCallback)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddFailureNotificationCallbackDataCacheFailureNotificationCallback">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddFailureNotificationCallback(Microsoft.ApplicationServer.Caching.DataCacheFailureNotificationCallback)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddItemLevelCallbackStringDataCacheOperationsDataCacheNotificationCallback">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddItemLevelCallback(System.String,Microsoft.ApplicationServer.Caching.DataCacheOperations,Microsoft.ApplicationServer.Caching.DataCacheNotificationCallback)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddItemLevelCallbackStringDataCacheOperationsDataCacheNotificationCallbackString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddItemLevelCallback(System.String,Microsoft.ApplicationServer.Caching.DataCacheOperations,Microsoft.ApplicationServer.Caching.DataCacheNotificationCallback,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddRegionLevelCallbackStringDataCacheOperationsDataCacheNotificationCallback">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddRegionLevelCallback(System.String,Microsoft.ApplicationServer.Caching.DataCacheOperations,Microsoft.ApplicationServer.Caching.DataCacheNotificationCallback)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddStringObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddStringObjectIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddStringObjectIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddStringObjectString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddStringObjectTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddStringObjectTimeSpanIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddStringObjectTimeSpanIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AddStringObjectTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AppendStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Append(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AppendStringStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Append(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AreMonitoringListenersAvailableGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.AreMonitoringListenersAvailable"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.BulkGetIEnumerableOfString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.BulkGet(System.Collections.Generic.IEnumerable`1{System.String})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.BulkGetIEnumerableOfStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.BulkGet(System.Collections.Generic.IEnumerable`1{System.String},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.CacheOperationCompletedAddEventHandlerOfCacheOperationCompletedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.add_CacheOperationCompleted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.CacheOperationCompletedRemoveEventHandlerOfCacheOperationCompletedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.remove_CacheOperationCompleted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.CacheOperationStartedAddEventHandlerOfCacheOperationStartedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.add_CacheOperationStarted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.CacheOperationStartedRemoveEventHandlerOfCacheOperationStartedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.remove_CacheOperationStarted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.Clear">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Clear"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ClearRegionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ClearRegion(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ClientVersionGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.ClientVersion"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ClientVersionSetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.ClientVersion"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ConstructorStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.#ctor(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ContainsKeyString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ContainsKey(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ContainsKeyStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ContainsKey(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.CreateRegionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.CreateRegion(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.DecrementStringInt64Int64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Decrement(System.String,System.Int64,System.Int64)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.DecrementStringInt64Int64String">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Decrement(System.String,System.Int64,System.Int64,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.DefaultTimeToLiveGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.DefaultTimeToLive"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetAndLockStringTimeSpanDataCacheLockHandleOut">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetAndLock(System.String,System.TimeSpan,Microsoft.ApplicationServer.Caching.DataCacheLockHandle@)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetCacheItemString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetCacheItem(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetCacheItemStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetCacheItem(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetErrorMsgInt32">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetErrorMsg(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetIfNewerStringDataCacheItemVersionRef">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetIfNewer(System.String,Microsoft.ApplicationServer.Caching.DataCacheItemVersion@)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetKeysByAllTagsIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetKeysByAllTags(System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetKeysByAnyTagsIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetKeysByAnyTags(System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetKeysString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetKeys(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetNextPollVersionForKeyString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetNextPollVersionForKey(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetNextPollVersionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetNextPollVersion(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetObjectsByAllTagsIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetObjectsByAllTags(System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetObjectsByAnyTagIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetObjectsByAnyTag(System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetObjectsByTagDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetObjectsByTag(Microsoft.ApplicationServer.Caching.DataCacheTag,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetObjectsInRegionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetObjectsInRegion(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Get(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetStringDataCacheItemVersionOut">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Get(System.String,Microsoft.ApplicationServer.Caching.DataCacheItemVersion@)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Get(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetSystemRegionNameString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetSystemRegionName(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.GetSystemRegions">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetSystemRegions"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.IncrementStringInt64Int64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Increment(System.String,System.Int64,System.Int64)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.IncrementStringInt64Int64String">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Increment(System.String,System.Int64,System.Int64,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.InitializeFromCacheDataCache">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.InitializeFromCache(Microsoft.ApplicationServer.Caching.DataCache)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.IsCompressionEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.IsCompressionEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.IsCompressionEnabledSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.IsCompressionEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.IsLocalCacheEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.IsLocalCacheEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.IsRequestTrackingEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.IsRequestTrackingEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.IsRequestTrackingEnabledSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.IsRequestTrackingEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.IsValidCacheLevelMaskDataCacheOperations">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.IsValidCacheLevelMask(Microsoft.ApplicationServer.Caching.DataCacheOperations)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.IsValidItemLevelMaskDataCacheOperations">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.IsValidItemLevelMask(Microsoft.ApplicationServer.Caching.DataCacheOperations)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.IsValidRegionLevelMaskDataCacheOperations">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.IsValidRegionLevelMask(Microsoft.ApplicationServer.Caching.DataCacheOperations)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ItemGetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.Item(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ItemSetStringObject">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.Item(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.LocalCacheUsedForGetEventAddAction">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.add_LocalCacheUsedForGetEvent(System.Action)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.LocalCacheUsedForGetEventRemoveAction">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.remove_LocalCacheUsedForGetEvent(System.Action)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.NameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.Name"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.NewExceptionInt32">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.NewException(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.NewExceptionInt32Int32">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.NewException(System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.NewExceptionInt32Int32Guid">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.NewException(System.Int32,System.Int32,System.Guid)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.NewExceptionInt32Int32GuidExceptionIDictionary">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.NewException(System.Int32,System.Int32,System.Guid,System.Exception,System.Collections.IDictionary)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.NewExceptionWithMessageInt32String">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.NewExceptionWithMessage(System.Int32,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.OnCacheOperationCompletedCacheOperationCompletedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.OnCacheOperationCompleted(Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.OnCacheOperationStartedCacheOperationStartedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.OnCacheOperationStarted(Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PrependStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Prepend(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PrependStringStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Prepend(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutAndUnlockStringObjectDataCacheLockHandle">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutAndUnlockStringObjectDataCacheLockHandleIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutAndUnlockStringObjectDataCacheLockHandleIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutAndUnlockStringObjectDataCacheLockHandleString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutAndUnlockStringObjectDataCacheLockHandleTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutAndUnlockStringObjectDataCacheLockHandleTimeSpanIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutAndUnlockStringObjectDataCacheLockHandleTimeSpanIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutAndUnlockStringObjectDataCacheLockHandleTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectDataCacheItemVersion">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectDataCacheItemVersionIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectDataCacheItemVersionIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectDataCacheItemVersionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectDataCacheItemVersionTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectDataCacheItemVersionTimeSpanIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectDataCacheItemVersionTimeSpanIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectDataCacheItemVersionTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectTimeSpanIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectTimeSpanIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.PutStringObjectTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.RemoveCallbackDataCacheNotificationDescriptor">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.RemoveCallback(Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.RemoveRegionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.RemoveRegion(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.RemoveString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.RemoveStringDataCacheItemVersion">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String,Microsoft.ApplicationServer.Caching.DataCacheItemVersion)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.RemoveStringDataCacheItemVersionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.RemoveStringDataCacheLockHandle">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.RemoveStringDataCacheLockHandleString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.RemoveStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ResetObjectTimeoutStringTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ResetObjectTimeout(System.String,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ResetObjectTimeoutStringTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ResetObjectTimeout(System.String,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.UnitTestEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.UnitTestEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.UnitTestEnabledSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.UnitTestEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.UnlockStringDataCacheLockHandle">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Unlock(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.UnlockStringDataCacheLockHandleString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Unlock(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.UnlockStringDataCacheLockHandleTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Unlock(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.UnlockStringDataCacheLockHandleTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Unlock(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ValidateKeyAndRegionStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ValidateKeyAndRegion(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.ValidateTagsIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ValidateTags(System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache._cacheOperationCompletedAddEventHandlerOfCacheOperationCompletedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.add__cacheOperationCompleted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache._cacheOperationCompletedRemoveEventHandlerOfCacheOperationCompletedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.remove__cacheOperationCompleted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache._cacheOperationStartedAddEventHandlerOfCacheOperationStartedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.add__cacheOperationStarted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache._cacheOperationStartedRemoveEventHandlerOfCacheOperationStartedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.remove__cacheOperationStarted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddCacheLevelBulkCallbackDataCacheBulkNotificationCallback">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddCacheLevelBulkCallback(Microsoft.ApplicationServer.Caching.DataCacheBulkNotificationCallback)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddCacheLevelCallbackDataCacheOperationsDataCacheNotificationCallback">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddCacheLevelCallback(Microsoft.ApplicationServer.Caching.DataCacheOperations,Microsoft.ApplicationServer.Caching.DataCacheNotificationCallback)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddFailureNotificationCallbackDataCacheFailureNotificationCallback">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddFailureNotificationCallback(Microsoft.ApplicationServer.Caching.DataCacheFailureNotificationCallback)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddItemLevelCallbackStringDataCacheOperationsDataCacheNotificationCallback">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddItemLevelCallback(System.String,Microsoft.ApplicationServer.Caching.DataCacheOperations,Microsoft.ApplicationServer.Caching.DataCacheNotificationCallback)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddItemLevelCallbackStringDataCacheOperationsDataCacheNotificationCallbackString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddItemLevelCallback(System.String,Microsoft.ApplicationServer.Caching.DataCacheOperations,Microsoft.ApplicationServer.Caching.DataCacheNotificationCallback,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddRegionLevelCallbackStringDataCacheOperationsDataCacheNotificationCallback">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.AddRegionLevelCallback(System.String,Microsoft.ApplicationServer.Caching.DataCacheOperations,Microsoft.ApplicationServer.Caching.DataCacheNotificationCallback)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddStringObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddStringObjectIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddStringObjectIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddStringObjectString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddStringObjectTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddStringObjectTimeSpanIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddStringObjectTimeSpanIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AddStringObjectTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Add(System.String,System.Object,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AppendStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Append(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AppendStringStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Append(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.AreMonitoringListenersAvailableGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.AreMonitoringListenersAvailable"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.BulkGetIEnumerableOfString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.BulkGet(System.Collections.Generic.IEnumerable`1{System.String})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.BulkGetIEnumerableOfStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.BulkGet(System.Collections.Generic.IEnumerable`1{System.String},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.CacheOperationCompletedAddEventHandlerOfCacheOperationCompletedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.add_CacheOperationCompleted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.CacheOperationCompletedRemoveEventHandlerOfCacheOperationCompletedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.remove_CacheOperationCompleted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.CacheOperationStartedAddEventHandlerOfCacheOperationStartedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.add_CacheOperationStarted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.CacheOperationStartedRemoveEventHandlerOfCacheOperationStartedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.remove_CacheOperationStarted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.Clear">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Clear"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.ClearRegionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ClearRegion(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.ClientVersionGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.ClientVersion"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.ClientVersionSetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.ClientVersion"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.ContainsKeyString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ContainsKey(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.ContainsKeyStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ContainsKey(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.CreateRegionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.CreateRegion(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.DecrementStringInt64Int64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Decrement(System.String,System.Int64,System.Int64)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.DecrementStringInt64Int64String">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Decrement(System.String,System.Int64,System.Int64,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetAndLockStringTimeSpanDataCacheLockHandleOut">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetAndLock(System.String,System.TimeSpan,Microsoft.ApplicationServer.Caching.DataCacheLockHandle@)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetCacheItemString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetCacheItem(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetCacheItemStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetCacheItem(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetIfNewerStringDataCacheItemVersionRef">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetIfNewer(System.String,Microsoft.ApplicationServer.Caching.DataCacheItemVersion@)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetKeysByAllTagsIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetKeysByAllTags(System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetKeysByAnyTagsIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetKeysByAnyTags(System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetKeysString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetKeys(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetNextPollVersionForKeyString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetNextPollVersionForKey(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetNextPollVersionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetNextPollVersion(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetObjectsByAllTagsIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetObjectsByAllTags(System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetObjectsByAnyTagIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetObjectsByAnyTag(System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetObjectsByTagDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetObjectsByTag(Microsoft.ApplicationServer.Caching.DataCacheTag,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetObjectsInRegionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetObjectsInRegion(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Get(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetStringDataCacheItemVersionOut">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Get(System.String,Microsoft.ApplicationServer.Caching.DataCacheItemVersion@)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Get(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetSystemRegionNameString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetSystemRegionName(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.GetSystemRegions">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.GetSystemRegions"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.IncrementStringInt64Int64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Increment(System.String,System.Int64,System.Int64)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.IncrementStringInt64Int64String">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Increment(System.String,System.Int64,System.Int64,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.InitializeFromCacheDataCache">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.InitializeFromCache(Microsoft.ApplicationServer.Caching.DataCache)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.IsCompressionEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.IsCompressionEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.IsCompressionEnabledSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.IsCompressionEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.IsLocalCacheEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.IsLocalCacheEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.IsRequestTrackingEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.IsRequestTrackingEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.IsRequestTrackingEnabledSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.IsRequestTrackingEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.ItemGetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.Item(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.ItemSetStringObject">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.Item(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.LocalCacheUsedForGetEventAddAction">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.add_LocalCacheUsedForGetEvent(System.Action)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.LocalCacheUsedForGetEventRemoveAction">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.remove_LocalCacheUsedForGetEvent(System.Action)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.NameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.Name"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.OnCacheOperationCompletedCacheOperationCompletedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.OnCacheOperationCompleted(Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.OnCacheOperationStartedCacheOperationStartedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.OnCacheOperationStarted(Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PrependStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Prepend(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PrependStringStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Prepend(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutAndUnlockStringObjectDataCacheLockHandle">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutAndUnlockStringObjectDataCacheLockHandleIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutAndUnlockStringObjectDataCacheLockHandleIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutAndUnlockStringObjectDataCacheLockHandleString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutAndUnlockStringObjectDataCacheLockHandleTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutAndUnlockStringObjectDataCacheLockHandleTimeSpanIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutAndUnlockStringObjectDataCacheLockHandleTimeSpanIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutAndUnlockStringObjectDataCacheLockHandleTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.PutAndUnlock(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectDataCacheItemVersion">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectDataCacheItemVersionIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectDataCacheItemVersionIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectDataCacheItemVersionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectDataCacheItemVersionTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectDataCacheItemVersionTimeSpanIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectDataCacheItemVersionTimeSpanIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectDataCacheItemVersionTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectTimeSpanIEnumerableOfDataCacheTag">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectTimeSpanIEnumerableOfDataCacheTagString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.TimeSpan,System.Collections.Generic.IEnumerable`1{Microsoft.ApplicationServer.Caching.DataCacheTag},System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.PutStringObjectTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Put(System.String,System.Object,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.RemoveCallbackDataCacheNotificationDescriptor">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.RemoveCallback(Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.RemoveRegionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.RemoveRegion(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.RemoveString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.RemoveStringDataCacheItemVersion">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String,Microsoft.ApplicationServer.Caching.DataCacheItemVersion)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.RemoveStringDataCacheItemVersionString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String,Microsoft.ApplicationServer.Caching.DataCacheItemVersion,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.RemoveStringDataCacheLockHandle">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.RemoveStringDataCacheLockHandleString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.RemoveStringString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Remove(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.ResetObjectTimeoutStringTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ResetObjectTimeout(System.String,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.ResetObjectTimeoutStringTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.ResetObjectTimeout(System.String,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.UnitTestEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.UnitTestEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.UnitTestEnabledSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCache.UnitTestEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.UnlockStringDataCacheLockHandle">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Unlock(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.UnlockStringDataCacheLockHandleString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Unlock(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.UnlockStringDataCacheLockHandleTimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Unlock(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances.UnlockStringDataCacheLockHandleTimeSpanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.Unlock(System.String,Microsoft.ApplicationServer.Caching.DataCacheLockHandle,System.TimeSpan,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances._cacheOperationCompletedAddEventHandlerOfCacheOperationCompletedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.add__cacheOperationCompleted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances._cacheOperationCompletedRemoveEventHandlerOfCacheOperationCompletedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.remove__cacheOperationCompleted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationCompletedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances._cacheOperationStartedAddEventHandlerOfCacheOperationStartedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.add__cacheOperationStarted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCache.AllInstances._cacheOperationStartedRemoveEventHandlerOfCacheOperationStartedEventArgs">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCache.remove__cacheOperationStarted(System.EventHandler`1{Microsoft.ApplicationServer.Caching.CacheOperationStartedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.#ctor(Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.ConstructorBoolean">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty.#ctor(System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.ConstructorBooleanString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty.#ctor(System.Boolean,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.IdentifierGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty.Identifier"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.IdentifierSetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty.Identifier"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.IsEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty.IsEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.IsEnabledSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty.IsEnabled"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.AllInstances.IdentifierGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty.Identifier"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.AllInstances.IdentifierSetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty.Identifier"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.AllInstances.IsEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty.IsEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheAutoDiscoverProperty.AllInstances.IsEnabledSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty.IsEnabled"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheFactory"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.#ctor(Microsoft.ApplicationServer.Caching.DataCacheFactory)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AssignClientPerfCounterEvents">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.AssignClientPerfCounterEvents"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AutoDiscoverServers">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.AutoDiscoverServers"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.Close">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.Close"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.ConfigurationGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactory.Configuration"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.ConstructorDataCacheFactoryConfiguration">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.#ctor(Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.Dispose">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.Dispose"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.GetCacheString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.GetCache(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.GetDefaultCache">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.GetDefaultCache"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.GetEndpointsReadOnlyCollectionOfDataCacheServerEndpoint">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.GetEndpoints(System.Collections.ObjectModel.ReadOnlyCollection`1{Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.InitializeOrFetchSingletonFactoryInstanceString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.InitializeOrFetchSingletonFactoryInstance(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.LocalCacheInstanceCreatedEventAddActionOfInt64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.add_LocalCacheInstanceCreatedEvent(System.Action`1{System.Int64})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.LocalCacheInstanceCreatedEventRemoveActionOfInt64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.remove_LocalCacheInstanceCreatedEvent(System.Action`1{System.Int64})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.LocalCacheInstanceDisposedEventAddActionOfInt64Int64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.add_LocalCacheInstanceDisposedEvent(System.Action`2{System.Int64,System.Int64})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.LocalCacheInstanceDisposedEventRemoveActionOfInt64Int64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.remove_LocalCacheInstanceDisposedEvent(System.Action`2{System.Int64,System.Int64})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.ThrowNotSupportedException">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.ThrowNotSupportedException"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances.AssignClientPerfCounterEvents">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.AssignClientPerfCounterEvents"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances.AutoDiscoverServers">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.AutoDiscoverServers"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances.Close">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.Close"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances.ConfigurationGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactory.Configuration"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances.Dispose">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.Dispose"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances.GetCacheString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.GetCache(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances.GetDefaultCache">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.GetDefaultCache"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances.LocalCacheInstanceCreatedEventAddActionOfInt64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.add_LocalCacheInstanceCreatedEvent(System.Action`1{System.Int64})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances.LocalCacheInstanceCreatedEventRemoveActionOfInt64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.remove_LocalCacheInstanceCreatedEvent(System.Action`1{System.Int64})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances.LocalCacheInstanceDisposedEventAddActionOfInt64Int64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.add_LocalCacheInstanceDisposedEvent(System.Action`2{System.Int64,System.Int64})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactory.AllInstances.LocalCacheInstanceDisposedEventRemoveActionOfInt64Int64">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactory.remove_LocalCacheInstanceDisposedEvent(System.Action`2{System.Int64,System.Int64})"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.#ctor(Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.Bind(System.ICloneable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AutoDiscoverPropertyGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.AutoDiscoverProperty"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AutoDiscoverPropertySetDataCacheAutoDiscoverProperty">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.AutoDiscoverProperty"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.CacheReadyRetryPolicyGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.CacheReadyRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.CacheReadyRetryPolicySetDataCacheReadyRetryPolicy">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.CacheReadyRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.ChannelOpenTimeoutGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.ChannelOpenTimeout"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.ChannelOpenTimeoutSetTimeSpan">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.ChannelOpenTimeout"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.Clone">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.Clone"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.ClonePropertiesDataCacheFactoryConfiguration">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.CloneProperties(Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.CreateNamedConfigurationStringDataCacheFactoryConfigurationBoolean">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.CreateNamedConfiguration(System.String,Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration,System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.DataCacheServiceAccountTypeGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.DataCacheServiceAccountType"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.DataCacheServiceAccountTypeSetDataCacheServiceAccountType">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.DataCacheServiceAccountType"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.InitializeFromNamedClientsString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.InitializeFromNamedClients(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.InitializeString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.Initialize(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.IsCompressionEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.IsCompressionEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.IsCompressionEnabledSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.IsCompressionEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.LocalCachePropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.LocalCacheProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.LocalCachePropertiesSetDataCacheLocalCacheProperties">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.LocalCacheProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.MaxConnectionsToServerGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.MaxConnectionsToServer"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.MaxConnectionsToServerSetInt32">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.MaxConnectionsToServer"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.NameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.Name"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.NotificationPropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.NotificationProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.NotificationPropertiesSetDataCacheNotificationProperties">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.NotificationProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.RemoveNamedConfigurationString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.RemoveNamedConfiguration(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.RequestTimeoutGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.RequestTimeout"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.RequestTimeoutSetTimeSpan">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.RequestTimeout"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.SecurityPropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SecurityProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.SecurityPropertiesSetDataCacheSecurity">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SecurityProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.SerializationPropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SerializationProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.SerializationPropertiesSetDataCacheSerializationProperties">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SerializationProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.ServerListGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.ServerList"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.ServerListSetReadOnlyCollectionOfDataCacheServerEndpoint">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.ServerList"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.ServersGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.Servers"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.ServersSetIEnumerableOfDataCacheServerEndpoint">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.Servers"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.SslSubjectIdentityGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SslSubjectIdentity"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.SslSubjectIdentitySetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SslSubjectIdentity"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.TransportPropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.TransportProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.TransportPropertiesSetDataCacheTransportProperties">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.TransportProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.UseConnectionPoolGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.UseConnectionPool"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.UseLegacyProtocolGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.UseLegacyProtocol"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.UseLegacyProtocolSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.UseLegacyProtocol"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.AutoDiscoverPropertyGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.AutoDiscoverProperty"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.AutoDiscoverPropertySetDataCacheAutoDiscoverProperty">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.AutoDiscoverProperty"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.CacheReadyRetryPolicyGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.CacheReadyRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.CacheReadyRetryPolicySetDataCacheReadyRetryPolicy">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.CacheReadyRetryPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.ChannelOpenTimeoutGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.ChannelOpenTimeout"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.ChannelOpenTimeoutSetTimeSpan">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.ChannelOpenTimeout"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.Clone">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.Clone"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.ClonePropertiesDataCacheFactoryConfiguration">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.CloneProperties(Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.DataCacheServiceAccountTypeGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.DataCacheServiceAccountType"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.DataCacheServiceAccountTypeSetDataCacheServiceAccountType">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.DataCacheServiceAccountType"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.InitializeFromNamedClientsString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.InitializeFromNamedClients(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.InitializeString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.Initialize(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.IsCompressionEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.IsCompressionEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.IsCompressionEnabledSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.IsCompressionEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.LocalCachePropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.LocalCacheProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.LocalCachePropertiesSetDataCacheLocalCacheProperties">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.LocalCacheProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.MaxConnectionsToServerGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.MaxConnectionsToServer"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.MaxConnectionsToServerSetInt32">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.MaxConnectionsToServer"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.NameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.Name"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.NotificationPropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.NotificationProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.NotificationPropertiesSetDataCacheNotificationProperties">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.NotificationProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.RequestTimeoutGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.RequestTimeout"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.RequestTimeoutSetTimeSpan">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.RequestTimeout"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.SecurityPropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SecurityProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.SecurityPropertiesSetDataCacheSecurity">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SecurityProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.SerializationPropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SerializationProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.SerializationPropertiesSetDataCacheSerializationProperties">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SerializationProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.ServerListGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.ServerList"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.ServerListSetReadOnlyCollectionOfDataCacheServerEndpoint">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.ServerList"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.ServersGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.Servers"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.ServersSetIEnumerableOfDataCacheServerEndpoint">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.Servers"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.SslSubjectIdentityGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SslSubjectIdentity"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.SslSubjectIdentitySetString">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.SslSubjectIdentity"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.TransportPropertiesGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.TransportProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.TransportPropertiesSetDataCacheTransportProperties">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.TransportProperties"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.UseConnectionPoolGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.UseConnectionPool"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.UseLegacyProtocolGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.UseLegacyProtocol"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheFactoryConfiguration.AllInstances.UseLegacyProtocolSetBoolean">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration.UseLegacyProtocol"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.#ctor(Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.ConstructorInt64TimeSpanDataCacheLocalCacheInvalidationPolicy">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties.#ctor(System.Int64,System.TimeSpan,Microsoft.ApplicationServer.Caching.DataCacheLocalCacheInvalidationPolicy)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.DefaultTimeoutGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties.DefaultTimeout"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.InvalidationPolicyGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties.InvalidationPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.IsEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties.IsEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.ObjectCountGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties.ObjectCount"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.AllInstances.DefaultTimeoutGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties.DefaultTimeout"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.AllInstances.InvalidationPolicyGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties.InvalidationPolicy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.AllInstances.IsEnabledGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties.IsEnabled"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheLocalCacheProperties.AllInstances.ObjectCountGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties.ObjectCount"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.#ctor(Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.CacheNameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor.CacheName"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.DelegateIdGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor.DelegateId"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.DelegateIdSetInt64">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor.DelegateId"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.ToString">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor.ToString"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.AllInstances.CacheNameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor.CacheName"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.AllInstances.DelegateIdGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor.DelegateId"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.AllInstances.DelegateIdSetInt64">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor.DelegateId"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationDescriptor.AllInstances.ToString01">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheNotificationDescriptor.ToString"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheNotificationProperties"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties.#ctor(Microsoft.ApplicationServer.Caching.DataCacheNotificationProperties)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties.ConstructorInt64TimeSpan">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheNotificationProperties.#ctor(System.Int64,System.TimeSpan)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties.MaxQueueLengthGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheNotificationProperties.MaxQueueLength"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties.PollIntervalGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheNotificationProperties.PollInterval"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties.AllInstances.MaxQueueLengthGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheNotificationProperties.MaxQueueLength"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheNotificationProperties.AllInstances.PollIntervalGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheNotificationProperties.PollInterval"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheReadyRetryPolicy"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.#ctor(Microsoft.ApplicationServer.Caching.DataCacheReadyRetryPolicy)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.ConstructorInt32Int32">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheReadyRetryPolicy.#ctor(System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.MaximumRetryIntervalInSecondsGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheReadyRetryPolicy.MaximumRetryIntervalInSeconds"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.MaximumRetryIntervalInSecondsSetInt32">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheReadyRetryPolicy.MaximumRetryIntervalInSeconds"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.RetryCountGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheReadyRetryPolicy.RetryCount"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.RetryCountSetInt32">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheReadyRetryPolicy.RetryCount"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.AllInstances.MaximumRetryIntervalInSecondsGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheReadyRetryPolicy.MaximumRetryIntervalInSeconds"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.AllInstances.MaximumRetryIntervalInSecondsSetInt32">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheReadyRetryPolicy.MaximumRetryIntervalInSeconds"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.AllInstances.RetryCountGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheReadyRetryPolicy.RetryCount"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheReadyRetryPolicy.AllInstances.RetryCountSetInt32">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheReadyRetryPolicy.RetryCount"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint">
+            <summary>Mole type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.#ctor(Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.CachePortGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.CachePort"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.ConstructorStringInt32">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.#ctor(System.String,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.EqualsObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.GetHashCode">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.HostNameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.HostName"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.UriStringGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.UriString"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.AllInstances.CachePortGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.CachePort"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.AllInstances.EqualsObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.AllInstances.GetHashCode01">
+            <summary>Sets the mole of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.AllInstances.HostNameGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.HostName"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.MDataCacheServerEndpoint.AllInstances.UriStringGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.UriString"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Moles.Framework.MicrosoftApplicationServerCachingClientDelegates">
+            <summary>Contains custom delegates used for the stubs and moles of Microsoft.ApplicationServer.Caching.Client</summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.SDataCacheAutoDiscoverProperty">
+            <summary>Stub type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheAutoDiscoverProperty"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheAutoDiscoverProperty.#ctor(System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheAutoDiscoverProperty.#ctor(System.Boolean,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheAutoDiscoverProperty.InitializeStub">
+            <summary>Initializes a new instance of type SDataCacheAutoDiscoverProperty</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.SDataCacheAutoDiscoverProperty.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.SDataCacheAutoDiscoverProperty.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.SDataCacheFactoryConfiguration">
+            <summary>Stub type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheFactoryConfiguration"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheFactoryConfiguration.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheFactoryConfiguration.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheFactoryConfiguration.InitializeStub">
+            <summary>Initializes a new instance of type SDataCacheFactoryConfiguration</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.SDataCacheFactoryConfiguration.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.SDataCacheFactoryConfiguration.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.SDataCacheLocalCacheProperties">
+            <summary>Stub type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheLocalCacheProperties"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheLocalCacheProperties.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheLocalCacheProperties.#ctor(System.Int64,System.TimeSpan,Microsoft.ApplicationServer.Caching.DataCacheLocalCacheInvalidationPolicy)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheLocalCacheProperties.InitializeStub">
+            <summary>Initializes a new instance of type SDataCacheLocalCacheProperties</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.SDataCacheLocalCacheProperties.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.SDataCacheLocalCacheProperties.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.SDataCacheNotificationProperties">
+            <summary>Stub type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheNotificationProperties"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheNotificationProperties.#ctor(System.Int64,System.TimeSpan)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheNotificationProperties.InitializeStub">
+            <summary>Initializes a new instance of type SDataCacheNotificationProperties</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.SDataCacheNotificationProperties.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.SDataCacheNotificationProperties.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Microsoft.ApplicationServer.Caching.Moles.SDataCacheServerEndpoint">
+            <summary>Stub type of <see cref="T:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheServerEndpoint.#ctor(System.String,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheServerEndpoint.Equals(System.Object)">
+            <summary>Sets the stub of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.ApplicationServer.Caching.Moles.SDataCacheServerEndpoint.EqualsObject">
+            <summary>Sets the stub of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheServerEndpoint.GetHashCode">
+            <summary>Sets the stub of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.ApplicationServer.Caching.Moles.SDataCacheServerEndpoint.GetHashCode01">
+            <summary>Sets the stub of <see cref="M:Microsoft.ApplicationServer.Caching.DataCacheServerEndpoint.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationServer.Caching.Moles.SDataCacheServerEndpoint.InitializeStub">
+            <summary>Initializes a new instance of type SDataCacheServerEndpoint</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.SDataCacheServerEndpoint.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.ApplicationServer.Caching.Moles.SDataCacheServerEndpoint.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
